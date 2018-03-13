@@ -38,7 +38,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/aws-elastic-load-balancing/action-modifytargetgroup-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/aws-elastic-load-balancing/action-modifytargetgroupattributes-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/elbv2/index.html
