@@ -32,7 +32,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/microsoft-graph/users-id-|-userprincipalname-getmembergroups-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/microsoft-graph/groups-id-getmembergroups-post.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
