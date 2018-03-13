@@ -25,7 +25,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/bmc-software/v1-hostgroups-search-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/bmc-software/v1-hostgroups-hostgroupid-get.md
 x-common:
 - type: x-blog
   url: http://www.bmc.com/blogs
