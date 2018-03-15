@@ -33,7 +33,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/akamai/galaxy-v1-client-groups-includedeleted,debug,self-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/akamai/galaxy-v1-client-groups-post.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
