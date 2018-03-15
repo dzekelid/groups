@@ -33,7 +33,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/akamai/user-admin-v1-accounts-accountid-groups-groupid-properties-assetid-users-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/akamai/user-admin-v1-accounts-accountid-groups-groupid-users-contactid-propertyexceptions-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
