@@ -12,8 +12,8 @@ tags:
 - Stack Network
 - Stack
 - Google APIs
-created: "2018-03-13"
-modified: "2018-03-13"
+created: "2018-03-15"
+modified: "2018-03-15"
 url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/youtube/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -26,7 +26,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/youtube/groups-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/youtube/groups-delete.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
