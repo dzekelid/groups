@@ -30,7 +30,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/aws-inspector/action-createresourcegroup-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/aws-inspector/action-describeresourcegroups-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/inspector/latest/APIReference/
