@@ -17,8 +17,8 @@ tags:
 - Deployment
 - Compute
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
+created: "2018-03-15"
+modified: "2018-03-15"
 url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/aws-auto-scaling/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -32,7 +32,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/aws-auto-scaling/action-describeautoscalinggroups-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/aws-auto-scaling/action-createautoscalinggroup-get.md
 x-common:
 - type: x-articles
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=100
