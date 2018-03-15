@@ -35,7 +35,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/sendgrid/asm-groups-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/sendgrid/asm-groups-group-id-delete.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
