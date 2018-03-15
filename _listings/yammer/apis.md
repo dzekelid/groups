@@ -13,8 +13,8 @@ tags:
 - Media
 - Chat
 - Bots
-created: "2018-03-13"
-modified: "2018-03-13"
+created: "2018-03-15"
+modified: "2018-03-15"
 url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/yammer/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -27,7 +27,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/yammer/yamuri-groups-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/yammer/yamuri-group-memberships-json-post.md
 x-common:
 - type: x-website
   url: http://developer.yammer.com
