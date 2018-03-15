@@ -30,7 +30,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/aws-identity-and-access-management/action-removeuserfromgroup-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/aws-identity-and-access-management/action-updategroup-get.md
 x-common:
 - type: x-change-log
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=323
