@@ -28,7 +28,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/meetup/urlname-members-member-id-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/meetup/urlname-members-member-id-delete.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
