@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetGroup&k=1:
+  /?Action=GetGroup:
     get:
       summary: ' Get Group '
       description: Returns a list of IAM users that are in the specified IAM group
