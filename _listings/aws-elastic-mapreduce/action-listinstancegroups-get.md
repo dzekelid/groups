@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListInstanceGroups&k=1:
+  /?Action=ListInstanceGroups:
     get:
       summary: ' List Instance Groups '
       description: Provides all available details about the instance groups in a cluster
