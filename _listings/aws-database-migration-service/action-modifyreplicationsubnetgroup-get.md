@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyReplicationSubnetGroup&k=1:
+  /?Action=ModifyReplicationSubnetGroup:
     get:
       summary: ' Modify Replication Subnet Group '
       description: Modifies the settings for the specified replication subnet group
