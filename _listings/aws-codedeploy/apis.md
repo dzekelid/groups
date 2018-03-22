@@ -29,7 +29,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-codedeploy/action-deletedeploymentgroup-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-codedeploy/action-getdeploymentgroup-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/codedeploy
