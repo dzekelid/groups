@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateGroup&k=1:
+  /?Action=UpdateGroup:
     get:
       summary: ' Update Group '
       description: Updates the name and/or the path of the specified IAM group
