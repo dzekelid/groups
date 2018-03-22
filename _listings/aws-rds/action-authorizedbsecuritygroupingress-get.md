@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AuthorizeDBSecurityGroupIngress&k=1:
+  /?Action=AuthorizeDBSecurityGroupIngress:
     get:
       summary: Authorize D B Security Group Ingress
       description: Enables ingress to a DBSecurityGroup using one of two forms of
