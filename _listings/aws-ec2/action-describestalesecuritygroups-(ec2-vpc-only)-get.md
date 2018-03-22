@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeStaleSecurityGroups (EC2-VPC only)&k=1:
+  /?Action=DescribeStaleSecurityGroups (EC2-VPC only):
     get:
       summary: Describe Stale Security Groups ( E C2- V P C only)
       description: '[EC2-VPC only] Describes the stale security group rules for security
