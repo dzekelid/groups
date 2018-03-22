@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyReplicationGroup&k=1:
+  /?Action=ModifyReplicationGroup:
     get:
       summary: ' Modify Replication Group '
       description: Modifies the settings for a replication group
