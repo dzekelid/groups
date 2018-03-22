@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteGroup&k=1:
+  /?Action=DeleteGroup:
     get:
       summary: ' Delete Group '
       description: Deletes the specified IAM group
