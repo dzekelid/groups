@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeOptionGroups&k=1:
+  /?Action=DescribeOptionGroups:
     get:
       summary: Describe Option Groups
       description: Describes the available option groups
