@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RemoveUserFromGroup&k=1:
+  /?Action=RemoveUserFromGroup:
     get:
       summary: ' Remove User From Group '
       description: Removes the specified user from the specified group
