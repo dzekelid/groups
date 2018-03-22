@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ResetDBParameterGroup&k=1:
+  /?Action=ResetDBParameterGroup:
     get:
       summary: Reset D B Parameter Group
       description: Modifies the parameters of a DB parameter group to the engine/system
