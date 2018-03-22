@@ -37,7 +37,7 @@ paths:
         200:
           description: Successful Response
       tags:
-      - check
+      - checks
       - member
       - groups
 definitions:
