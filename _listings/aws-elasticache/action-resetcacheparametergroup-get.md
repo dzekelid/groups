@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ResetCacheParameterGroup&k=1:
+  /?Action=ResetCacheParameterGroup:
     get:
       summary: ' Reset Cache Parameter Group '
       description: |-
