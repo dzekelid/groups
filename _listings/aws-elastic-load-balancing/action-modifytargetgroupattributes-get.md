@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyTargetGroupAttributes&k=1:
+  /?Action=ModifyTargetGroupAttributes:
     get:
       summary: ' Modify Target Group Attributes '
       description: Modifies the specified attributes of the specified target group
