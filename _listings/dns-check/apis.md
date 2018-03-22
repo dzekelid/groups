@@ -13,9 +13,9 @@ tags:
 - DNS General
 - dns check
 - DNS
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/dns-check/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/dns-check/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: DNS Record Group Monitoring API
@@ -27,7 +27,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/dns-check/groups-group-uuid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/dns-check/groups-group-uuid-get.md
 x-common:
 - type: x-developer
   url: https://www.dnscheck.co/documentation
