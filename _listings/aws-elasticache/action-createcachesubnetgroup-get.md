@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateCacheSubnetGroup&k=1:
+  /?Action=CreateCacheSubnetGroup:
     get:
       summary: ' Create Cache Subnet Group '
       description: Creates a new cache subnet group
