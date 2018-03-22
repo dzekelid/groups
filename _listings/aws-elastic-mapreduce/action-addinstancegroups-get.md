@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AddInstanceGroups&k=1:
+  /?Action=AddInstanceGroups:
     get:
       summary: ' Add Instance Groups '
       description: Adds one or more instance groups to a running cluster
