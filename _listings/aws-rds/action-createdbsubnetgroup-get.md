@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateDBSubnetGroup&k=1:
+  /?Action=CreateDBSubnetGroup:
     get:
       summary: Create D B Subnet Group
       description: Creates a new DB subnet group
