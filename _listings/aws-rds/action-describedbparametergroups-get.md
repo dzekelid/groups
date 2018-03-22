@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeDBParameterGroups&k=1:
+  /?Action=DescribeDBParameterGroups:
     get:
       summary: Describe D B Parameter Groups
       description: Returns a list of DBParameterGroup descriptions
