@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeReplicationGroups&k=1:
+  /?Action=DescribeReplicationGroups:
     get:
       summary: ' Describe Replication Groups '
       description: |-
