@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteOptionGroup&k=1:
+  /?Action=DeleteOptionGroup:
     get:
       summary: Delete Option Group
       description: Deletes an existing option group
