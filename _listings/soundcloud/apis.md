@@ -33,7 +33,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/soundcloud/groups-group-id-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/soundcloud/groups-group-id-users-json-get.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
