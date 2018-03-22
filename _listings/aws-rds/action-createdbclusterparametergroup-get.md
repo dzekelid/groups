@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateDBClusterParameterGroup&k=1:
+  /?Action=CreateDBClusterParameterGroup:
     get:
       summary: Create D B Cluster Parameter Group
       description: Creates a new DB cluster parameter group
