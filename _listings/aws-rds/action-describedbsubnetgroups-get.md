@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeDBSubnetGroups&k=1:
+  /?Action=DescribeDBSubnetGroups:
     get:
       summary: Describe D B Subnet Groups
       description: Returns a list of DBSubnetGroup descriptions
