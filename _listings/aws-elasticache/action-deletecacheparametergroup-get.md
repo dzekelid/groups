@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteCacheParameterGroup&k=1:
+  /?Action=DeleteCacheParameterGroup:
     get:
       summary: ' Delete Cache Parameter Group '
       description: |-
