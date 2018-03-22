@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListGroups&k=1:
+  /?Action=ListGroups:
     get:
       summary: ' List Groups '
       description: Lists the IAM groups that have the specified path prefix
