@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AuthorizeCacheSecurityGroupIngress&k=1:
+  /?Action=AuthorizeCacheSecurityGroupIngress:
     get:
       summary: ' Authorize Cache Security Group Ingress '
       description: |-
