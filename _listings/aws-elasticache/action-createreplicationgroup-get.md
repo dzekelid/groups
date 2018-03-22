@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateReplicationGroup&k=1:
+  /?Action=CreateReplicationGroup:
     get:
       summary: ' Create Replication Group '
       description: Creates a Redis (cluster mode disabled) or a Redis (cluster mode
