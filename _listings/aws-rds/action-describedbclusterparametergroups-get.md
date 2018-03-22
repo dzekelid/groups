@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeDBClusterParameterGroups&k=1:
+  /?Action=DescribeDBClusterParameterGroups:
     get:
       summary: Describe D B Cluster Parameter Groups
       description: Returns a list of DBClusterParameterGroup descriptions
