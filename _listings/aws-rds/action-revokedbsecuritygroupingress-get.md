@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RevokeDBSecurityGroupIngress&k=1:
+  /?Action=RevokeDBSecurityGroupIngress:
     get:
       summary: Revoke D B Security Group Ingress
       description: Revokes ingress from a DBSecurityGroup for previously authorized
