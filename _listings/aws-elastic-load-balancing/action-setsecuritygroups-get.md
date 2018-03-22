@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetSecurityGroups&k=1:
+  /?Action=SetSecurityGroups:
     get:
       summary: ' Set Security Groups '
       description: Associates the specified security groups with the specified load
