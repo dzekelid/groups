@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteTargetGroup&k=1:
+  /?Action=DeleteTargetGroup:
     get:
       summary: ' Delete Target Group '
       description: Deletes the specified target group
