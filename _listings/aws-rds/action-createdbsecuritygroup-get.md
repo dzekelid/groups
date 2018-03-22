@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateDBSecurityGroup&k=1:
+  /?Action=CreateDBSecurityGroup:
     get:
       summary: Create D B Security Group
       description: Creates a new DB security group
