@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CopyOptionGroup&k=1:
+  /?Action=CopyOptionGroup:
     get:
       summary: Copy Option Group
       description: Copies the specified option group
