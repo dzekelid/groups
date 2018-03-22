@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListDeploymentGroups&k=1:
+  /?Action=ListDeploymentGroups:
     get:
       summary: ' List Deployment Groups '
       description: |-
