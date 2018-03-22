@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateGroup&k=1:
+  /?Action=CreateGroup:
     get:
       summary: ' Create Group '
       description: Creates a new group
