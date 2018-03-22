@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyDBClusterParameterGroup&k=1:
+  /?Action=ModifyDBClusterParameterGroup:
     get:
       summary: Modify D B Cluster Parameter Group
       description: Modifies the parameters of a DB cluster parameter group
