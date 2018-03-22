@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribePlacementGroups&k=1:
+  /?Action=DescribePlacementGroups:
     get:
       summary: Describe Placement Groups
       description: Describes one or more of your placement groups
