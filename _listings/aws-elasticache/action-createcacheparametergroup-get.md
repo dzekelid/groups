@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateCacheParameterGroup&k=1:
+  /?Action=CreateCacheParameterGroup:
     get:
       summary: ' Create Cache Parameter Group '
       description: Creates a new cache parameter group
