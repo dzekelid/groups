@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AddUserToGroup&k=1:
+  /?Action=AddUserToGroup:
     get:
       summary: ' Add User To Group '
       description: Adds the specified user to the specified group
