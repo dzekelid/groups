@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeCacheSecurityGroups&k=1:
+  /?Action=DescribeCacheSecurityGroups:
     get:
       summary: ' Describe Cache Security Groups '
       description: |-
