@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListGroupsForUser&k=1:
+  /?Action=ListGroupsForUser:
     get:
       summary: ' List Groups For User '
       description: Lists the IAM groups that the specified IAM user belongs to
