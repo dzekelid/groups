@@ -26,7 +26,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/youtube/groups-parameters.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/youtube/groups-post.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
