@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteDBClusterParameterGroup&k=1:
+  /?Action=DeleteDBClusterParameterGroup:
     get:
       summary: Delete D B Cluster Parameter Group
       description: Deletes a specified DB cluster parameter group
