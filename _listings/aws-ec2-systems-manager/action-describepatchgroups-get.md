@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribePatchGroups&k=1:
+  /?Action=DescribePatchGroups:
     get:
       summary: ' Describe Patch Groups '
       description: Lists all patch groups that have been registered with patch baselines
