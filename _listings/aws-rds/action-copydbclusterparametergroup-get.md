@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CopyDBClusterParameterGroup&k=1:
+  /?Action=CopyDBClusterParameterGroup:
     get:
       summary: Copy D B Cluster Parameter Group
       description: Copies the specified DB cluster parameter group
