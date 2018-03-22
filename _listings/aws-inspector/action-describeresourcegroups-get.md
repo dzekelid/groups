@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeResourceGroups&k=1:
+  /?Action=DescribeResourceGroups:
     get:
       summary: ' Describe Resource Groups '
       description: |-
