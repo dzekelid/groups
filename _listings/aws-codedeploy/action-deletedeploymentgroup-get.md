@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteDeploymentGroup&k=1:
+  /?Action=DeleteDeploymentGroup:
     get:
       summary: ' Delete Deployment Group '
       description: Deletes a deployment group
