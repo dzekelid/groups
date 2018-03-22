@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RevokeCacheSecurityGroupIngress&k=1:
+  /?Action=RevokeCacheSecurityGroupIngress:
     get:
       summary: ' Revoke Cache Security Group Ingress '
       description: |-
