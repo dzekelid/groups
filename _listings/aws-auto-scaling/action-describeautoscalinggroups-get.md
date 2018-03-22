@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeAutoScalingGroups&k=1:
+  /?Action=DescribeAutoScalingGroups:
     get:
       summary: ' Describe Auto Scaling Groups '
       description: Describes one or more Auto Scaling groups
