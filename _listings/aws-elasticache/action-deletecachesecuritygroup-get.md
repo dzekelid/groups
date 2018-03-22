@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteCacheSecurityGroup&k=1:
+  /?Action=DeleteCacheSecurityGroup:
     get:
       summary: ' Delete Cache Security Group '
       description: Deletes a cache security group
