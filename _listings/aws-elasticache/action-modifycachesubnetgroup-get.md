@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyCacheSubnetGroup&k=1:
+  /?Action=ModifyCacheSubnetGroup:
     get:
       summary: ' Modify Cache Subnet Group '
       description: Modifies an existing cache subnet group
