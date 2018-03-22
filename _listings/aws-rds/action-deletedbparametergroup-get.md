@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteDBParameterGroup&k=1:
+  /?Action=DeleteDBParameterGroup:
     get:
       summary: Delete D B Parameter Group
       description: Deletes a specified DBParameterGroup
