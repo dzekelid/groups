@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyDBParameterGroup&k=1:
+  /?Action=ModifyDBParameterGroup:
     get:
       summary: Modify D B Parameter Group
       description: Modifies the parameters of a DB parameter group
