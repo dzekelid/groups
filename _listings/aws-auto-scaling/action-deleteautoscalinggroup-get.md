@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteAutoScalingGroup&k=1:
+  /?Action=DeleteAutoScalingGroup:
     get:
       summary: ' Delete Auto Scaling Group '
       description: Deletes the specified Auto Scaling group
