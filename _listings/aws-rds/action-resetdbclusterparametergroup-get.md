@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ResetDBClusterParameterGroup&k=1:
+  /?Action=ResetDBClusterParameterGroup:
     get:
       summary: Reset D B Cluster Parameter Group
       description: Modifies the parameters of a DB cluster parameter group to the
