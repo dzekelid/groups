@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CopyDBParameterGroup&k=1:
+  /?Action=CopyDBParameterGroup:
     get:
       summary: Copy D B Parameter Group
       description: Copies the specified DB parameter group
