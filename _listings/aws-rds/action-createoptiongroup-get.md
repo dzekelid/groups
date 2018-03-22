@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateOptionGroup&k=1:
+  /?Action=CreateOptionGroup:
     get:
       summary: Create Option Group
       description: Creates a new option group
