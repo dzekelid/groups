@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyDBSubnetGroup&k=1:
+  /?Action=ModifyDBSubnetGroup:
     get:
       summary: Modify D B Subnet Group
       description: Modifies an existing DB subnet group
