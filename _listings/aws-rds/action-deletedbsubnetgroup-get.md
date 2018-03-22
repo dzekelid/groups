@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteDBSubnetGroup&k=1:
+  /?Action=DeleteDBSubnetGroup:
     get:
       summary: Delete D B Subnet Group
       description: Deletes a DB subnet group
