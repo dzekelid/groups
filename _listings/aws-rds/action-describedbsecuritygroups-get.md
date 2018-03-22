@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeDBSecurityGroups&k=1:
+  /?Action=DescribeDBSecurityGroups:
     get:
       summary: Describe D B Security Groups
       description: Returns a list of DBSecurityGroup descriptions
