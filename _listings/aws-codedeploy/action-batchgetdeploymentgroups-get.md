@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=BatchGetDeploymentGroups&k=1:
+  /?Action=BatchGetDeploymentGroups:
     get:
       summary: ' Batch Get Deployment Groups '
       description: Gets information about one or more deployment groups
