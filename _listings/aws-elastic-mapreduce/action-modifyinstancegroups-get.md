@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyInstanceGroups&k=1:
+  /?Action=ModifyInstanceGroups:
     get:
       summary: ' Modify Instance Groups '
       description: ModifyInstanceGroups modifies the number of nodes and configuration
