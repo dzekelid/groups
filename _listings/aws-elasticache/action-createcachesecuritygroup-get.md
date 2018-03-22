@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateCacheSecurityGroup&k=1:
+  /?Action=CreateCacheSecurityGroup:
     get:
       summary: ' Create Cache Security Group '
       description: Creates a new cache security group
