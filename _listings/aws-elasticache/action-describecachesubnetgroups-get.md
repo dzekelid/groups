@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeCacheSubnetGroups&k=1:
+  /?Action=DescribeCacheSubnetGroups:
     get:
       summary: ' Describe Cache Subnet Groups '
       description: |-
