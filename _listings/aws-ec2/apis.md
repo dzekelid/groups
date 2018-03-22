@@ -19,9 +19,9 @@ tags:
 - Stack
 - Compute
 - Amazon Web Services
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/aws-ec2/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-ec2/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS EC2 API
@@ -33,7 +33,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/groups/master/_listings/aws-ec2/action-revokesecuritygroupingress-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-ec2/action-describeplacementgroups-get.md
 x-common:
 - type: x-code
   url: http://aws.amazon.com/code/Amazon-EC2/
