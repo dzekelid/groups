@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteCacheSubnetGroup&k=1:
+  /?Action=DeleteCacheSubnetGroup:
     get:
       summary: ' Delete Cache Subnet Group '
       description: Deletes a cache subnet group
