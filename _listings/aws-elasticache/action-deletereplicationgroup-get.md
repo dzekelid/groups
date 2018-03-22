@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteReplicationGroup&k=1:
+  /?Action=DeleteReplicationGroup:
     get:
       summary: ' Delete Replication Group '
       description: Deletes an existing replication group
