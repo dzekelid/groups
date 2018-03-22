@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeTargetGroupAttributes&k=1:
+  /?Action=DescribeTargetGroupAttributes:
     get:
       summary: ' Describe Target Group Attributes '
       description: Describes the attributes for the specified target group
