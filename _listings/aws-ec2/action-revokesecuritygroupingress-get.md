@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RevokeSecurityGroupIngress&k=1:
+  /?Action=RevokeSecurityGroupIngress:
     get:
       summary: Revoke Security Group Ingress
       description: Removes one or more ingress rules from a security group
