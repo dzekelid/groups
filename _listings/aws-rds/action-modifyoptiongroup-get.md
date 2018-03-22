@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyOptionGroup&k=1:
+  /?Action=ModifyOptionGroup:
     get:
       summary: Modify Option Group
       description: Modifies an existing option group
