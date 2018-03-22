@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RevokeSecurityGroupEgress (EC2-VPC only)&k=1:
+  /?Action=RevokeSecurityGroupEgress (EC2-VPC only):
     get:
       summary: Revoke Security Group Egress ( E C2- V P C only)
       description: '[EC2-VPC only] Removes one or more egress rules from a security
