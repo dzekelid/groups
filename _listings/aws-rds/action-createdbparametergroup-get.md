@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateDBParameterGroup&k=1:
+  /?Action=CreateDBParameterGroup:
     get:
       summary: Create D B Parameter Group
       description: Creates a new DB parameter group
