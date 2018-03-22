@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyTargetGroup&k=1:
+  /?Action=ModifyTargetGroup:
     get:
       summary: ' Modify Target Group '
       description: Modifies the health checks used when evaluating the health state
