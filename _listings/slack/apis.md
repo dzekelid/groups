@@ -39,7 +39,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/groups-info-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/usergroups-users-update-post.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
