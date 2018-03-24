@@ -10,22 +10,11 @@ tags:
 - Monitoring
 - Devops
 - Applications
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/bmc-software/apis.yaml
 specificationVersion: "0.14"
-apis:
-- name: BMC Software API
-  description: TrueSight Pulse responds to fluid IT demands with SaaS-based monitoring
-    for real-time visibility into web-scale application metrics helping DevOps teams
-    detect and diagnose problems fast
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bmc-truesight.png
-  humanURL: ""
-  baseURL: https:///
-  tags: Groups
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/bmc-software/v1-hostgroups-hostgroupid-delete.md
+apis: []
 x-common:
 - type: x-blog
   url: http://www.bmc.com/blogs
