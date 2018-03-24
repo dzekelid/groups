@@ -20,8 +20,8 @@ tags:
 - Files
 - Collaboration
 - Backup
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/box/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -33,7 +33,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/box/groups-group-id-collaborations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/box/groups-post.md
 x-common:
 - type: x-base
   url: https://api.box.com/
