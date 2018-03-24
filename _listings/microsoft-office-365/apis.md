@@ -25,7 +25,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/microsoft-office-365/calendargroups-calendargroup-id-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/microsoft-office-365/calendargroups-calendargroup-id-parameters.md
 x-common:
 - type: x-developer
   url: http://dev.office.com
