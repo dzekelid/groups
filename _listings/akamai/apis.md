@@ -33,7 +33,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/akamai/galaxy-v1-client-groups-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/akamai/billing-center-api-v2-reporting-groups-reportinggroupid-products-productid-statistics-year,month,fromyear,frommonth,toyear,tomonth-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
