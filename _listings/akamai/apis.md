@@ -20,8 +20,8 @@ tags:
 - Bots
 - Applications
 - API LIfeycle
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -33,7 +33,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/akamai/user-admin-v1-accounts-accountid-groups-groupid-users-contactid-propertyexceptions-propertyid-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/akamai/galaxy-v1-client-groups-includedeleted,debug,self-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
