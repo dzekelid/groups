@@ -11,8 +11,8 @@ tags:
 - Spreadsheets
 - Productivity
 - Documents
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/microsoft-office-365/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -25,7 +25,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/microsoft-office-365/calendargroups-calendargroup-id-calendars-parameters.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/microsoft-office-365/calendargroups-get.md
 x-common:
 - type: x-developer
   url: http://dev.office.com
