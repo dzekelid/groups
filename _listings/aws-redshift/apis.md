@@ -30,7 +30,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-redshift/action-deleteclusterparametergroup-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-redshift/action-deleteclustersubnetgroup-get.md
 x-common:
 - type: x-best-practices
   url: https://aws.amazon.com/redshift/developer-resources/#best-practices
