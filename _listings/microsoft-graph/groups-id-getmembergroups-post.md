@@ -1,10 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Microsoft Graph API
-  description: 'Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft
-    cloud services through a single endpoint: https://graph.microsoft.com. Microsoft
-    Graph simplifies queries that would otherwise be more complex.'
+  title: Microsoft Graph API Group Get Member Groups
+  description: 'group: getMemberGroups Return all the groups that the specified group
+    is a member of. The check is transitive, unlike reading the memberOf navigation
+    property, which returns only the groups that the group is a direct member of.'
   version: 1.0.0
 host: graph.microsoft.com
 basePath: /
