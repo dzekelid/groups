@@ -27,19 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/youtube/groups-put.md
-- name: Youtube Get Groups
-  description: Returns a collection of groups that match the API request parameters.
-    For example, you can retrieve all groups that the authenticated user owns, or
-    you can retrieve one or more groups by their unique IDs.
+- name: Youtube Parameters Groups
+  description: Parameters groups
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/youtube/groups-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/youtube/groups-parameters.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/youtube/groups-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/youtube/groups-parameters-postman.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
