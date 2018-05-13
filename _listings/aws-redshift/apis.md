@@ -31,17 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-redshift/action-resetclusterparametergroup-get.md
-- name: Amazon Redshift API Describe Cluster Subnet Groups
-  description: |-
-    Returns one or more cluster subnet group objects, which contain metadata about your
-                cluster subnet groups.
+- name: Amazon Redshift API Modify Cluster Parameter Group
+  description: Modifies the parameters of a parameter group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
   humanURL: https://aws.amazon.com/redshift/
   baseURL: http:://{host}//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-redshift/action-describeclustersubnetgroups-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-redshift/action-modifyclusterparametergroup-get.md
 x-common:
 - type: x-best-practices
   url: https://aws.amazon.com/redshift/developer-resources/#best-practices
