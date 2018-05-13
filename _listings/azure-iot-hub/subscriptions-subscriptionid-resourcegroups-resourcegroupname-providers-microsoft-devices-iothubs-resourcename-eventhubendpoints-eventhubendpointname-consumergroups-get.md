@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: iotHubClient
-  description: Use this API to manage the IoT hubs in your subscription.
+  title: Azure IoT Hub API Iot Hub Resource List Event Hub Consumer Groups
+  description: Get a list of the consumer groups in the Event Hub-compatible device-to-cloud
+    endpoint in an IoT hub.
   version: 1.0.0
 host: management.azure.com
 basePath: /
