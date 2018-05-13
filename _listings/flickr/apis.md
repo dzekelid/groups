@@ -36,7 +36,36 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/flickr/rest-method-flickr-groups-pools-getcontext-get.md
+- name: Flickr Get Groups
+  description: Get information about a group
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
+  humanURL: http://www.flickr.com/
+  baseURL: http:://api.flickr.com//services
+  tags: Groups
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/flickr/rest-method-flickr-groups-getinfo-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/flickr/rest-method-flickr-groups-getinfo-get-postman.md
 x-common:
+- type: x-authentication
+  url: https://www.flickr.com/services/api/auth.oauth.html
+- type: x-base
+  url: https://api.flickr.com/services/
+- type: x-developer
+  url: https://www.flickr.com/services/api/
+- type: x-getting-started
+  url: https://www.flickr.com/services/developer/
+- type: x-privacy
+  url: https://info.yahoo.com/privacy/us/yahoo/flickr/details.html
+- type: x-support
+  url: https://help.yahoo.com/kb/flickr-for-desktop
+- type: x-terms-of-service
+  url: https://www.flickr.com/services/api/tos/
+- type: x-twitter
+  url: https://twitter.com/flickr
+- type: x-website
+  url: http://www.flickr.com/
 - type: x-authentication
   url: https://www.flickr.com/services/api/auth.oauth.html
 - type: x-base
