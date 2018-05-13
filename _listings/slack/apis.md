@@ -40,17 +40,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/groups-archive-post.md
-- name: Slack Set Group Topic
-  description: Sets the topic for a private channel.
+- name: Slack Disable Group
+  description: Disable an existing User Group
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://slack.com
   baseURL: https://slack.com//api
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/groups-settopic-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/usergroups-disable-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/groups-settopic-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/usergroups-disable-post-postman.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
