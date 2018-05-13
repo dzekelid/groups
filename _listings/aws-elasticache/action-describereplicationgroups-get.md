@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS ElastiCache API
+  title: Amazon ElastiCache API Describe Replication Groups
   version: 1.0.0
+  description: |-
+    Returns information about a particular
+                replication group.
 schemes:
 - http
 produces:
