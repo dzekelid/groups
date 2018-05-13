@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Describe Placement Groups
   version: 1.0.0
+  description: Describes one or more of your placement groups.
 schemes:
 - http
 produces:
