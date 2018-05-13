@@ -28,7 +28,27 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/azure-event-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-eventhub-namespaces-namespacename-eventhubs-eventhubname-consumergroups-get.md
+- name: Azure Event Hubs API Consumer Groups Create Or Update
+  description: Creates or updates an Event Hubs consumer group as a nested resource
+    within a Namespace.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-event-hubs-stream.png
+  humanURL: https://azure.microsoft.com/en-us/services/event-hubs/
+  baseURL: http:://management.azure.com//
+  tags: Groups
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/azure-event-hubs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-eventhub-namespaces-namespacename-eventhubs-eventhubname-consumergroups-consumergroupname-put.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/event-hubs/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/event-hubs/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/event-hubs/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/event-hubs/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/event-hubs/
 - type: x-pricing
