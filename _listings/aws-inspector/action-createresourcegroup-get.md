@@ -1,8 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Inspector API
+  title: AWS Inspector API Create Resource Group
   version: 1.0.0
+  description: |-
+    Creates a resource group using the specified set of tags (key and value pairs) that
+             are used to select the EC2 instances to be included in an Amazon Inspector assessment
+             target.
 schemes:
 - http
 produces:
