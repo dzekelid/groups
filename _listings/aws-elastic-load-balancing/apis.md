@@ -39,16 +39,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-elastic-load-balancing/action-setsecuritygroups-get.md
-- name: AWS Elastic Load Balancing API Modify Target Group
-  description: Modifies the health checks used when evaluating the health state of
-    the targets in the specified target group.
+- name: AWS Elastic Load Balancing API Modify Target Group Attributes
+  description: Modifies the specified attributes of the specified target group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_ElasticLoadBalancing.png
   humanURL: https://aws.amazon.com/elasticloadbalancing/
   baseURL: http:://{host}//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-elastic-load-balancing/action-modifytargetgroup-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-elastic-load-balancing/action-modifytargetgroupattributes-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/elbv2/index.html
