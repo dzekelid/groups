@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API List Groups
   version: 1.0.0
+  description: Lists the IAM groups that have the specified path prefix.
 schemes:
 - http
 produces:
