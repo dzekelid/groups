@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Load Balancing API
+  title: AWS Elastic Load Balancing API Modify Target Group
   version: 1.0.0
+  description: Modifies the health checks used when evaluating the health state of
+    the targets in the specified target group.
 schemes:
 - http
 produces:
