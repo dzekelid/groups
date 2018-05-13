@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/soundcloud/groups-group-id-tracks-json-get.md
-- name: SoundCloud Get Group Moderators
-  description: Returns a collection of moderators of the group with group id
+- name: SoundCloud Get Group Members
+  description: Returns a collection of members of the group with group id
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Soundcloud-logo.jpg
   humanURL: http://soundcloud.com
   baseURL: https://api.soundcloud.com//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/soundcloud/groups-group-id-moderators-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/soundcloud/groups-group-id-members-json-get.md
 x-common:
 - type: x-base
   url: https://api.soundcloud.com
