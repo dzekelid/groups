@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic MapReduce API
+  title: AWS Elastic MapReduce API Add Instance Groups
   version: 1.0.0
+  description: Adds one or more instance groups to a running cluster.
 schemes:
 - http
 produces:
