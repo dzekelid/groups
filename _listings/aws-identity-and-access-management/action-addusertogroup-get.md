@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Add User To Group
   version: 1.0.0
+  description: Adds the specified user to the specified group.
 schemes:
 - http
 produces:
