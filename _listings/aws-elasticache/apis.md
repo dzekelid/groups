@@ -34,17 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-elasticache/action-revokecachesecuritygroupingress-get.md
-- name: Amazon ElastiCache API Authorize Cache Security Group Ingress
-  description: |-
-    Allows network ingress to a cache
-                security group.
+- name: Amazon ElastiCache API Create Cache Parameter Group
+  description: Creates a new cache parameter group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonElasticCache.png
   humanURL: https://aws.amazon.com/elasticache/
   baseURL: http:://{host}//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-elasticache/action-authorizecachesecuritygroupingress-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-elasticache/action-createcacheparametergroup-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/Welcome.html
