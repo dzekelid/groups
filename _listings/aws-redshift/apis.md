@@ -31,7 +31,38 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-redshift/action-resetclusterparametergroup-get.md
+- name: Amazon Redshift API Create Cluster Parameter Group
+  description: Creates an Amazon Redshift parameter group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
+  humanURL: https://aws.amazon.com/redshift/
+  baseURL: http:://{host}//
+  tags: Groups
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-redshift/action-createclusterparametergroup-get.md
 x-common:
+- type: x-best-practices
+  url: https://aws.amazon.com/redshift/developer-resources/#best-practices
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/cli/latest/reference/redshift/index.html
+- type: x-customer-success
+  url: https://aws.amazon.com/redshift/customer-success/
+- type: x-documentation
+  url: http://docs.aws.amazon.com/redshift/latest/APIReference/
+- type: x-events
+  url: https://aws.amazon.com/redshift/events/
+- type: x-faq
+  url: https://aws.amazon.com/redshift/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/redshift/getting-started/
+- type: x-partners
+  url: https://aws.amazon.com/redshift/partners/
+- type: x-pricing
+  url: https://aws.amazon.com/redshift/pricing/
+- type: x-website
+  url: https://aws.amazon.com/redshift/
+- type: x-whats-new
+  url: https://aws.amazon.com/redshift/whats-new/
 - type: x-best-practices
   url: https://aws.amazon.com/redshift/developer-resources/#best-practices
 - type: x-command-line-interface
