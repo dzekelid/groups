@@ -26,6 +26,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/bmc-software/v1-hostgroups-hostgroupid-delete.md
+- name: BMC Software API Search Hostgroups
+  description: Searches the hostgroups in your account
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bmc-truesight.png
+  humanURL: http://www.bmc.com
+  baseURL: https://{host}//
+  tags: Groups
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/bmc-software/v1-hostgroups-search-get.md
 x-common:
 - type: x-blog
   url: http://www.bmc.com/blogs
