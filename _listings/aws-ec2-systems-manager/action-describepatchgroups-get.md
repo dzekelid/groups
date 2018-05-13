@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 Systems Manager API
+  title: Amazon EC2 Systems Manager API Describe Patch Groups
   version: 1.0.0
+  description: Lists all patch groups that have been registered with patch baselines.
 schemes:
 - http
 produces:
