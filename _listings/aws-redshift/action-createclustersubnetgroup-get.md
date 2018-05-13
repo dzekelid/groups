@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Create Cluster Subnet Group
   version: 1.0.0
+  description: Creates a new Amazon Redshift subnet group.
 schemes:
 - http
 produces:
