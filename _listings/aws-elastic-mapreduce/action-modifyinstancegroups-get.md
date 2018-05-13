@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic MapReduce API
+  title: AWS Elastic MapReduce API Modify Instance Groups
   version: 1.0.0
+  description: ModifyInstanceGroups modifies the number of nodes and configuration
+    settings of an instance group.
 schemes:
 - http
 produces:
