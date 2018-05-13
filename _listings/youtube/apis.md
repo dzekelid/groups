@@ -27,17 +27,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/youtube/groups-put.md
-- name: Youtube Parameters Groups
-  description: Parameters groups
+- name: Youtube Add Groups
+  description: Creates a group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/youtube/groups-parameters.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/youtube/groups-parameters-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/youtube/groups-post.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
