@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Load Balancing API
+  title: AWS Elastic Load Balancing API Create Target Group
   version: 1.0.0
+  description: Creates a target group.
 schemes:
 - http
 produces:
