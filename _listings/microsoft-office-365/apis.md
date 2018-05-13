@@ -26,7 +26,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/microsoft-office-365/calendargroups-calendargroup-id-calendars-parameters.md
+- name: Microsoft Office 365 Get Calendar Groups
+  description: You can request all the calendar groups in a mailbox (or a f...
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-office.png
+  humanURL: http://office.com
+  baseURL: https://outlook.office365.com//ews/odata/Me
+  tags: Groups
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/microsoft-office-365/calendargroups-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/microsoft-office-365/calendargroups-get-postman.md
 x-common:
+- type: x-developer
+  url: http://dev.office.com
+- type: x-github
+  url: https://github.com/OfficeDev
+- type: x-twitter
+  url: https://twitter.com/OfficeDev
+- type: x-website
+  url: http://office.com
 - type: x-developer
   url: http://dev.office.com
 - type: x-github
