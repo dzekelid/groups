@@ -34,18 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/box/groups-group-id-collaborations-get.md
-- name: Box Get Groups for an Enterprise
-  description: Retrieves all of the groups for given enterprise. Must have permissions
-    to see an enterprise's groups.
+- name: Box Get Group
+  description: Used to get information about a group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/box/groups-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/box/groups-group-id-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/box/groups-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/box/groups-group-id-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
