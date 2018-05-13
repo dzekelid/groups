@@ -26,15 +26,6 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/bmc-software/v1-hostgroups-hostgroupid-delete.md
-- name: BMC Software API Get Hostgroup by Id
-  description: Retrieves a single hostgroup by its id
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bmc-truesight.png
-  humanURL: http://www.bmc.com
-  baseURL: https://{host}//
-  tags: Groups
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/bmc-software/v1-hostgroups-hostgroupid-get.md
 x-common:
 - type: x-blog
   url: http://www.bmc.com/blogs
