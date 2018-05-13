@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Describe Option Groups
   version: 1.0.0
+  description: Describes the available option groups.
 schemes:
 - http
 produces:
