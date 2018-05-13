@@ -36,22 +36,20 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/sendgrid/asm-groups-group-id-suppressions-email-delete.md
-- name: SendGrid Patch Asm Groups Group
+- name: SendGrid Get Asm Groups Group  Suppressions
   description: |-
-    **This endpoint allows you to update or change a suppression group.**
+    **This endpoint allows you to retrieve all suppressed email addresses belonging to the given group.**
 
-    Suppression groups, or unsubscribe groups, are specific types or categories of email that you would like your recipients to be able to unsubscribe from. For example: Daily Newsletters, Invoices, System Alerts.
-
-    The **name** and **description** of the unsubscribe group will be visible by recipients when they are managing their subscriptions.
-
-    Each user can create up to 25 different suppression groups.
+    Suppressions are recipient email addresses that are added to [unsubscribe groups](https://sendgrid.com/docs/API_Reference/Web_API_v3/Suppression_Management/groups.html). Once a recipient's address is on the suppressions list for an unsubscribe group, they will not receive any emails that are tagged with that unsubscribe group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
   humanURL: https://sendgrid.com/
   baseURL: https://api.sendgrid.com//v3
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/sendgrid/asm-groups-group-id-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/sendgrid/asm-groups-group-id-suppressions-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/sendgrid/asm-groups-group-id-suppressions-get-postman.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
