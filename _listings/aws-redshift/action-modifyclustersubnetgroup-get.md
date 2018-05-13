@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Modify Cluster Subnet Group
   version: 1.0.0
+  description: Modifies a cluster subnet group to include the specified list of VPC
+    subnets.
 schemes:
 - http
 produces:
