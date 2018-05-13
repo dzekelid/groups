@@ -36,20 +36,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/sendgrid/asm-groups-group-id-suppressions-email-delete.md
-- name: SendGrid Add Asm Groups Group  Suppressions Search
+- name: SendGrid Delete Asm Groups Group  Suppressions Email
   description: |-
-    **This endpoint allows you to search a suppression group for multiple suppressions.**
+    **This endpoint allows you to remove a suppressed email address from the given suppression group.**
 
-    When given a list of email addresses and a group ID, this endpoint will return only the email addresses that have been unsubscribed from the given group.
-
-    Suppressions are a list of email addresses that will not receive content sent under a given [group](https://sendgrid.com/docs/API_Reference/Web_API_v3/Suppression_Management/groups.html).
+    Suppressions are recipient email addresses that are added to [unsubscribe groups](https://sendgrid.com/docs/API_Reference/Web_API_v3/Suppression_Management/groups.html). Once a recipient's address is on the suppressions list for an unsubscribe group, they will not receive any emails that are tagged with that unsubscribe group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
   humanURL: https://sendgrid.com/
   baseURL: https://api.sendgrid.com//v3
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/sendgrid/asm-groups-group-id-suppressions-search-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/sendgrid/asm-groups-group-id-suppressions-email-delete.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
