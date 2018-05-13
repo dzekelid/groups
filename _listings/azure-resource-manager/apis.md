@@ -27,17 +27,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-get.md
-- name: Azure Resource Manager API Resource Groups Get
-  description: Gets a resource group.
+- name: Azure Resource Manager API Resource Groups Export Template
+  description: Captures the specified resource group as a template.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png
   humanURL: https://docs.microsoft.com/en-us/rest/api/resources/
   baseURL: http:://management.azure.com//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-resourcegroupname-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-resourcegroupname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-resourcegroupname-exporttemplate-post.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
