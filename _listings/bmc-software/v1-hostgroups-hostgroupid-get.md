@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: BMC Software Merged API
+  title: BMC Software API Get Hostgroup by Id
   version: 1.0.0
+  description: Retrieves a single hostgroup by its id
 schemes:
 - http
 produces:
