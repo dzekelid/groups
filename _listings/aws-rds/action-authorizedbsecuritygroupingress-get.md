@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Authorize D B Security Group Ingress
   version: 1.0.0
+  description: Enables ingress to a DBSecurityGroup using one of two forms of authorization.
 schemes:
 - http
 produces:
