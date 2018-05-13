@@ -31,15 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-redshift/action-resetclusterparametergroup-get.md
-- name: Amazon Redshift API Delete Cluster Parameter Group
-  description: Deletes a specified Amazon Redshift parameter group.
+- name: Amazon Redshift API Delete Cluster Subnet Group
+  description: Deletes the specified cluster subnet group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
   humanURL: https://aws.amazon.com/redshift/
   baseURL: http:://{host}//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-redshift/action-deleteclusterparametergroup-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-redshift/action-deleteclustersubnetgroup-get.md
 x-common:
 - type: x-best-practices
   url: https://aws.amazon.com/redshift/developer-resources/#best-practices
