@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS ElastiCache API
+  title: Amazon ElastiCache API Delete Cache Security Group
   version: 1.0.0
+  description: Deletes a cache security group.
 schemes:
 - http
 produces:
