@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: EventHubManagementClient
-  description: Azure Event Hubs client
+  title: Azure Event Hubs API Consumer Groups Delete
+  description: Deletes a consumer group from the specified Event Hub and resource
+    group.
   version: 1.0.0
 host: management.azure.com
 basePath: /
