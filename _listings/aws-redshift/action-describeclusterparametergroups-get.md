@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Describe Cluster Parameter Groups
   version: 1.0.0
+  description: |-
+    Returns a list of Amazon Redshift parameter groups, including parameter groups you
+                created and the default parameter group.
 schemes:
 - http
 produces:
