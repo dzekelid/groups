@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Revoke Security Group Egress ( E C2- V P C only)
   version: 1.0.0
+  description: '[EC2-VPC only] Removes one or more egress rules from a security group
+    for EC2-VPC.'
 schemes:
 - http
 produces:
