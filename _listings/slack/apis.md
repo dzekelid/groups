@@ -40,17 +40,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/groups-archive-post.md
-- name: Slack Group History
-  description: Fetches history of messages and events from a private channel.
+- name: Slack Set Group Topic
+  description: Sets the topic for a private channel.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://slack.com
   baseURL: https://slack.com//api
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/groups-history-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/groups-settopic-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/groups-history-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/groups-settopic-post-postman.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
