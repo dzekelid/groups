@@ -26,17 +26,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/microsoft-office-365/calendargroups-calendargroup-id-calendars-parameters.md
-- name: Microsoft Office 365 Delete Calendar Groups
-  description: Deleting a calendar group is as simple as sending a DELETE r...
+- name: Microsoft Office 365 Patch Calendar Groups
+  description: You can update a calendar group by sending a PATCH request w...
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-office.png
   humanURL: http://office.com
   baseURL: https://outlook.office365.com//ews/odata/Me
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/microsoft-office-365/calendargroups-calendargroup-id-delete.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/microsoft-office-365/calendargroups-calendargroup-id-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/microsoft-office-365/calendargroups-calendargroup-id-patch.md
 x-common:
 - type: x-developer
   url: http://dev.office.com
