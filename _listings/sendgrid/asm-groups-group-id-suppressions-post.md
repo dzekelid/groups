@@ -1,11 +1,13 @@
 ---
 swagger: "2.0"
 info:
-  title: SendGrid
-  description: 'The SendGrid Web API V3 Documentation. This is the entirety of the
-    documented v3 endpoints. We have updated all the descriptions, parameters, requests,
-    and responses. Authentication Every endpoint requires Authentication in the form
-    of an Authorization Header: Authorization: Bearer API_KEY'
+  title: SendGrid Add Asm Groups Group  Suppressions
+  description: |-
+    **This endpoint allows you to add email addresses to an unsubscribe group.**
+
+    If you attempt to add suppressions to a group that has been deleted or does not exist, the suppressions will be added to the global suppressions list.
+
+    Suppressions are recipient email addresses that are added to [unsubscribe groups](https://sendgrid.com/docs/API_Reference/Web_API_v3/Suppression_Management/groups.html). Once a recipient's address is on the suppressions list for an unsubscribe group, they will not receive any emails that are tagged with that unsubscribe group.
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3
