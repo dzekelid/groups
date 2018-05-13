@@ -29,15 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-rds/action-revokedbsecuritygroupingress-get.md
-- name: Amazon RDS API Describe D B Security Groups
-  description: Returns a list of DBSecurityGroup descriptions.
+- name: Amazon RDS API Describe D B Subnet Groups
+  description: Returns a list of DBSubnetGroup descriptions.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
   humanURL: https://aws.amazon.com/rds/
   baseURL: http:://{host}//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-rds/action-describedbsecuritygroups-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-rds/action-describedbsubnetgroups-get.md
 x-common:
 - type: x-articles
   url: https://aws.amazon.com/articles/Amazon-RDS
