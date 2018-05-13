@@ -38,16 +38,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/meetup/urlname-get.md
-- name: Meetup Recommended Groups Ignore
-  description: Provides a form of feedback by requesting to remove a group from future
-    recommendations
+- name: Meetup Group Events
+  description: Gets a listing of all Meetup Events hosted by a target group, in ascending
+    order by default
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
   humanURL: http://www.meetup.com/
   baseURL: https://api.meetup.com//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/meetup/recommended-groups-ignores-urlname-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/meetup/urlname-events-get.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
