@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Reset Cluster Parameter Group
   version: 1.0.0
+  description: |-
+    Sets one or more parameters of the specified parameter group to their default
+                values and sets the source values of the parameters to "engine-default".
 schemes:
 - http
 produces:
