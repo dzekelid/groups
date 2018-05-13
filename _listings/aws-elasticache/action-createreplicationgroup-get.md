@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS ElastiCache API
+  title: Amazon ElastiCache API Create Replication Group
   version: 1.0.0
+  description: Creates a Redis (cluster mode disabled) or a Redis (cluster mode enabled)
+    replication group.
 schemes:
 - http
 produces:
