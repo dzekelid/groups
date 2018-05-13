@@ -30,15 +30,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-codedeploy/action-updatedeploymentgroup-get.md
-- name: AWS CodeDeploy API Get Deployment Group
-  description: Gets information about a deployment group.
+- name: AWS CodeDeploy API List Deployment Groups
+  description: |-
+    Lists the deployment groups for an application registered with the applicable IAM
+                user or AWS account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-codedeploy.png
   humanURL: https://aws.amazon.com/codedeploy/
   baseURL: http:://{host}//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-codedeploy/action-getdeploymentgroup-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-codedeploy/action-listdeploymentgroups-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/codedeploy
