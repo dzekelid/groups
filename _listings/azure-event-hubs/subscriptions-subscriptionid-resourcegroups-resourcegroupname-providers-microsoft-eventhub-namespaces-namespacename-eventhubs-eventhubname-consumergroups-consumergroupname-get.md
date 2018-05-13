@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: EventHubManagementClient
-  description: Azure Event Hubs client
+  title: Azure Event Hubs API Consumer Groups Get
+  description: Gets a description for the specified consumer group.
   version: 1.0.0
 host: management.azure.com
 basePath: /
