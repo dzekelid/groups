@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Describe Stale Security Groups ( E C2- V P C only)
   version: 1.0.0
+  description: '[EC2-VPC only] Describes the stale security group rules for security
+    groups in a specified VPC.'
 schemes:
 - http
 produces:
