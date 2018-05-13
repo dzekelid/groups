@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: EventHubManagementClient
-  description: Azure Event Hubs client
+  title: Azure Event Hubs API Consumer Groups List All
+  description: Gets all the consumer groups in a Namespace. An empty feed is returned
+    if no consumer group exists in the Namespace.
   version: 1.0.0
 host: management.azure.com
 basePath: /
