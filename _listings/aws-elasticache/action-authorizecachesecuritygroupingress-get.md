@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS ElastiCache API
+  title: Amazon ElastiCache API Authorize Cache Security Group Ingress
   version: 1.0.0
+  description: |-
+    Allows network ingress to a cache
+                security group.
 schemes:
 - http
 produces:
