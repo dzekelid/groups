@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Revoke D B Security Group Ingress
   version: 1.0.0
+  description: Revokes ingress from a DBSecurityGroup for previously authorized IP
+    ranges or EC2 or VPC Security Groups.
 schemes:
 - http
 produces:
