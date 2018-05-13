@@ -1,10 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: ApiManagementClient
-  description: Use these REST APIs for performing operations on User entity in Azure
-    API Management deployment. The User entity in API Management represents the developers
-    that call the APIs of the products to which they are subscribed.
+  title: Azure API Management API ProductGroups Create
+  description: Adds the association between the specified developer group with the
+    specified product.
   version: 1.0.0
 host: management.azure.com
 basePath: /
