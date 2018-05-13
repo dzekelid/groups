@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic MapReduce API
+  title: AWS Elastic MapReduce API List Instance Groups
   version: 1.0.0
+  description: Provides all available details about the instance groups in a cluster.
 schemes:
 - http
 produces:
