@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Move a Group within Another Group
+  description: Move a Group within Another Group
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,15 +19,15 @@ paths:
       description: Move a Group within Another Group
       operationId: useradminv1accountsaccountidmovegroupgroupidgroupsdestinationgroupid
       parameters:
-      - in: String
+      - in: query
         name: accountId
         description: Unique identifier for an account
         type: string
-      - in: String
+      - in: query
         name: destinationGroupId
         description: Specifies the new parent group&#8217;s identifier
         type: string
-      - in: Integer
+      - in: query
         name: groupId
         description: Unique numeric identifier for a group
         type: string
