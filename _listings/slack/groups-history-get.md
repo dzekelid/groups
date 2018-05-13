@@ -1,10 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Slack
-  description: One way to interact with the Slack platform is its HTTP RPC-based Web
-    API, a collection of methods requiring OAuth 2.0-based user, bot, or workspace
-    tokens blessed with related OAuth scopes.
+  title: Slack Group History
+  description: Fetches history of messages and events from a private channel.
   version: 1.0.3
 host: slack.com
 basePath: /api
