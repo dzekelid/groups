@@ -31,7 +31,33 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-inspector/action-describeresourcegroups-get.md
+- name: AWS Inspector API Create Resource Group
+  description: |-
+    Creates a resource group using the specified set of tags (key and value pairs) that
+             are used to select the EC2 instances to be included in an Amazon Inspector assessment
+             target.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
+  humanURL: https://aws.amazon.com/inspector/
+  baseURL: http:://{host}//
+  tags: Groups
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-inspector/action-createresourcegroup-get.md
 x-common:
+- type: x-documentation
+  url: http://docs.aws.amazon.com/inspector/latest/APIReference/
+- type: x-faq
+  url: https://aws.amazon.com/inspector/faqs/
+- type: x-getting-started
+  url: https://docs.aws.amazon.com/inspector/latest/userguide/inspector_quickstart.html
+- type: x-partners
+  url: https://aws.amazon.com/inspector/partners/
+- type: x-pricing
+  url: https://aws.amazon.com/inspector/pricing/
+- type: x-testimonials
+  url: https://aws.amazon.com/inspector/customers/
+- type: x-website
+  url: https://aws.amazon.com/inspector/
 - type: x-documentation
   url: http://docs.aws.amazon.com/inspector/latest/APIReference/
 - type: x-faq
