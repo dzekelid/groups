@@ -36,17 +36,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/flickr/rest-method-flickr-groups-pools-getcontext-get.md
-- name: Flickr Get Group Topic List
-  description: Get a list of discussion topics in a group.
+- name: Flickr Get Group Replies
+  description: Get information on a group topic reply
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
   baseURL: http:://api.flickr.com//services
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/flickr/rest-method-flickr-groups-discuss-topics-getlist-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/flickr/rest-method-flickr-groups-discuss-replies-getinfo-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/flickr/rest-method-flickr-groups-discuss-topics-getlist-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/flickr/rest-method-flickr-groups-discuss-replies-getinfo-get-postman.md
 x-common:
 - type: x-authentication
   url: https://www.flickr.com/services/api/auth.oauth.html
