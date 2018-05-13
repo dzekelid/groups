@@ -36,9 +36,11 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/sendgrid/asm-groups-group-id-suppressions-email-delete.md
-- name: SendGrid Add Asm Groups
+- name: SendGrid Delete Asm Groups Group
   description: |-
-    **This endpoint allows you to create a new suppression group.**
+    **This endpoint allows you to delete a suppression group.**
+
+    You can only delete groups that have not been attached to sent mail in the last 60 days. If a recipient uses the "one-click unsubscribe" option on an email associated with a deleted group, that recipient will be added to the global suppression list.
 
     Suppression groups, or unsubscribe groups, are specific types or categories of email that you would like your recipients to be able to unsubscribe from. For example: Daily Newsletters, Invoices, System Alerts.
 
@@ -51,7 +53,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/sendgrid/asm-groups-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/sendgrid/asm-groups-group-id-delete.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
