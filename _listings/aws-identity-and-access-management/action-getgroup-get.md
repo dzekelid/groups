@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Identity and Access Management API
+  title: AWS Identity and Access Management API Get Group
   version: 1.0.0
+  description: Returns a list of IAM users that are in the specified IAM group.
 schemes:
 - http
 produces:
