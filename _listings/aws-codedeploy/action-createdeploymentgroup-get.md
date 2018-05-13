@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CodeDeploy API
+  title: AWS CodeDeploy API Create Deployment Group
   version: 1.0.0
+  description: |-
+    Creates a deployment group to which application revisions will be
+                deployed.
 schemes:
 - http
 produces:
