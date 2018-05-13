@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS ElastiCache API
+  title: Amazon ElastiCache API Modify Cache Subnet Group
   version: 1.0.0
+  description: Modifies an existing cache subnet group.
 schemes:
 - http
 produces:
