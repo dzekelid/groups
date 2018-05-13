@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Associate Multiple Activation Files for a DPC
+  description: Associate Multiple Activation Files for a DPC
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,11 +19,11 @@ paths:
       description: Associate Multiple Activation Files for a DPC
       operationId: galaxyv1client-groups
       parameters:
-      - in: Boolean
+      - in: query
         name: debug
         description: The flag to include debug members in the response JSON
         type: string
-      - in: Boolean
+      - in: query
         name: includeDeleted
         description: The flag to include deleted customers
         type: string
