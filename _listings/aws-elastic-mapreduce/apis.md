@@ -33,15 +33,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-elastic-mapreduce/action-modifyinstancegroups-get.md
-- name: AWS Elastic MapReduce API List Instance Groups
-  description: Provides all available details about the instance groups in a cluster.
+- name: AWS Elastic MapReduce API Modify Instance Groups
+  description: ModifyInstanceGroups modifies the number of nodes and configuration
+    settings of an instance group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonEMR.png
   humanURL: https://aws.amazon.com/emr/
   baseURL: http:://{host}//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-elastic-mapreduce/action-listinstancegroups-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-elastic-mapreduce/action-modifyinstancegroups-get.md
 x-common:
 - type: x-article
   url: http://aws.amazon.com/articles/Elastic-MapReduce
