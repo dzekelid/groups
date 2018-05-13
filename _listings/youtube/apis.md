@@ -27,15 +27,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/youtube/groups-put.md
-- name: Youtube Add Groups
-  description: Creates a group.
+- name: Youtube Put Groups
+  description: Modifies a group. For example, you could change a group's title.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/youtube/groups-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/youtube/groups-put.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
