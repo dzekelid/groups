@@ -34,9 +34,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-elasticache/action-revokecachesecuritygroupingress-get.md
-- name: Amazon ElastiCache API Describe Cache Security Groups
+- name: Amazon ElastiCache API Describe Cache Subnet Groups
   description: |-
-    Returns a list of cache security group
+    Returns a list of cache subnet group
                 descriptions.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonElasticCache.png
   humanURL: https://aws.amazon.com/elasticache/
@@ -44,7 +44,7 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-elasticache/action-describecachesecuritygroups-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-elasticache/action-describecachesubnetgroups-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/Welcome.html
