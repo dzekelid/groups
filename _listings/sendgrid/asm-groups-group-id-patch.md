@@ -1,11 +1,15 @@
 ---
 swagger: "2.0"
 info:
-  title: SendGrid
-  description: 'The SendGrid Web API V3 Documentation. This is the entirety of the
-    documented v3 endpoints. We have updated all the descriptions, parameters, requests,
-    and responses. Authentication Every endpoint requires Authentication in the form
-    of an Authorization Header: Authorization: Bearer API_KEY'
+  title: SendGrid Patch Asm Groups Group
+  description: |-
+    **This endpoint allows you to update or change a suppression group.**
+
+    Suppression groups, or unsubscribe groups, are specific types or categories of email that you would like your recipients to be able to unsubscribe from. For example: Daily Newsletters, Invoices, System Alerts.
+
+    The **name** and **description** of the unsubscribe group will be visible by recipients when they are managing their subscriptions.
+
+    Each user can create up to 25 different suppression groups.
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3
