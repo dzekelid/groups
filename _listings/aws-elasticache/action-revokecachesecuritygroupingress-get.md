@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS ElastiCache API
+  title: Amazon ElastiCache API Revoke Cache Security Group Ingress
   version: 1.0.0
+  description: |-
+    Revokes ingress from a cache
+                security group.
 schemes:
 - http
 produces:
