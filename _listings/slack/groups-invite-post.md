@@ -1,10 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Slack
-  description: One way to interact with the Slack platform is its HTTP RPC-based Web
-    API, a collection of methods requiring OAuth 2.0-based user, bot, or workspace
-    tokens blessed with related OAuth scopes.
+  title: Slack Invite User To Group
+  description: Invites a user to a private channel.
   version: 1.0.3
 host: slack.com
 basePath: /api
