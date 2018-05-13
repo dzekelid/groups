@@ -29,15 +29,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/meetup/urlname-events-get.md
-- name: Meetup Group Profile list
-  description: Get a list of Meetup group members
+- name: Meetup Group Profile search
+  description: |-
+    Find group member profiles by name.
+    Member's who very recently joined or left the group may not be immediately searchable
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
   humanURL: http://www.meetup.com/
   baseURL: https://api.meetup.com//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/meetup/urlname-members-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/meetup/find-urlname-members-get.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
