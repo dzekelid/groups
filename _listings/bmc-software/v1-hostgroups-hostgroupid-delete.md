@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: BMC Software Merged API
+  title: BMC Software API Delete Hostgroup
   version: 1.0.0
+  description: Delete an hostgroup
 schemes:
 - http
 produces:
