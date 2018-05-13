@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Modify Cluster Parameter Group
   version: 1.0.0
+  description: Modifies the parameters of a parameter group.
 schemes:
 - http
 produces:
