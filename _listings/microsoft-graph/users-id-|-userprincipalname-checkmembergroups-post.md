@@ -1,10 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Microsoft Graph API
-  description: 'Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft
-    cloud services through a single endpoint: https://graph.microsoft.com. Microsoft
-    Graph simplifies queries that would otherwise be more complex.'
+  title: Microsoft Graph API Check Member Groups
+  description: Check member groups Check for membership in a specified list of groups,
+    and returns from that list those groups of which the specified user, group, or
+    directory object is a member. This function is transitive.
   version: 1.0.0
 host: graph.microsoft.com
 basePath: /
