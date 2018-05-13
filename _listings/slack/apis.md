@@ -40,17 +40,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/groups-archive-post.md
-- name: Slack Create Group
-  description: Creates a private channel.
+- name: Slack List Groups
+  description: List all User Groups for a team
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://slack.com
   baseURL: https://slack.com//api
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/groups-create-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/usergroups-list-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/groups-create-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/usergroups-list-get-postman.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
