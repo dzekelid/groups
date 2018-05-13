@@ -34,17 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-elasticache/action-revokecachesecuritygroupingress-get.md
-- name: Amazon ElastiCache API Delete Cache Parameter Group
-  description: |-
-    Deletes the specified cache parameter
-                group.
+- name: Amazon ElastiCache API Delete Cache Security Group
+  description: Deletes a cache security group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonElasticCache.png
   humanURL: https://aws.amazon.com/elasticache/
   baseURL: http:://{host}//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-elasticache/action-deletecacheparametergroup-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-elasticache/action-deletecachesecuritygroup-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/Welcome.html
