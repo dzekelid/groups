@@ -29,18 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/meetup/urlname-events-get.md
-- name: Meetup Edit Group Member Profile
-  description: |-
-    Edits Group Profiles.
-    To fetch Group Member Profiles,
-    see [this endpoint](/meetup_api/docs/:urlname/members/:member_id#get)
+- name: Meetup Delete Group Member Profile (Leave Group)
+  description: Deletes a member's group profiles.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
   humanURL: http://www.meetup.com/
   baseURL: https://api.meetup.com//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/meetup/urlname-members-member-id-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/meetup/urlname-members-member-id-delete.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
