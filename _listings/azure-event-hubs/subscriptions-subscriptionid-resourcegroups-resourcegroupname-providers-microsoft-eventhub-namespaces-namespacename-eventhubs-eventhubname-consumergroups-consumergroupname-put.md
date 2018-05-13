@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: EventHubManagementClient
-  description: Azure Event Hubs client
+  title: Azure Event Hubs API Consumer Groups Create Or Update
+  description: Creates or updates an Event Hubs consumer group as a nested resource
+    within a Namespace.
   version: 1.0.0
 host: management.azure.com
 basePath: /
