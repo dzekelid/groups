@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Inspector API
+  title: AWS Inspector API Describe Resource Groups
   version: 1.0.0
+  description: |-
+    Describes the resource groups that are specified by the ARNs of the resource
+             groups.
 schemes:
 - http
 produces:
