@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Modify D B Parameter Group
   version: 1.0.0
+  description: Modifies the parameters of a DB parameter group.
 schemes:
 - http
 produces:
