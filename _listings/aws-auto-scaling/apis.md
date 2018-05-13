@@ -33,15 +33,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-auto-scaling/action-describeautoscalinggroups-get.md
-- name: AWS Auto Scaling API Create Auto Scaling Group
-  description: Creates an Auto Scaling group with the specified name and attributes.
+- name: AWS Auto Scaling API Delete Auto Scaling Group
+  description: Deletes the specified Auto Scaling group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png
   humanURL: https://aws.amazon.com/autoscaling/
   baseURL: http:://{host}//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-auto-scaling/action-createautoscalinggroup-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-auto-scaling/action-deleteautoscalinggroup-get.md
 x-common:
 - type: x-articles
   url: http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=100
