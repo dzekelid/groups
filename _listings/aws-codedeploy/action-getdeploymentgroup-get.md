@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CodeDeploy API
+  title: AWS CodeDeploy API Get Deployment Group
   version: 1.0.0
+  description: Gets information about a deployment group.
 schemes:
 - http
 produces:
