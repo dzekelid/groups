@@ -33,19 +33,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/microsoft-graph/users-id-|-userprincipalname-calendargroups-get.md
-- name: Microsoft Graph API List Groups
-  description: List groups List all the groups available in an organization, including
-    but not limited to Office 365 Groups. The default properties of each group are
-    returned.
+- name: Microsoft Graph API List Calendar Groups
+  description: List calendarGroups Get the user's calendar groups.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
   humanURL: https://developer.microsoft.com/en-us/graph/
   baseURL: https://graph.microsoft.com//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/microsoft-graph/groups-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/microsoft-graph/groups-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/microsoft-graph/users-id-|-userprincipalname-calendargroups-get.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
