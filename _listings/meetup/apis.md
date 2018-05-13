@@ -29,16 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/meetup/urlname-events-get.md
-- name: Meetup Report Group
-  description: Submits a new abuse report for a target group. Abuse reports will be
-    followed up on by our Community Support team.
+- name: Meetup Find Groups
+  description: Text, location, category and friend-based group searches
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
   humanURL: http://www.meetup.com/
   baseURL: https://api.meetup.com//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/meetup/urlname-abuse-reports-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/meetup/find-groups-get.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
