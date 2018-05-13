@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS ElastiCache API
+  title: Amazon ElastiCache API Create Cache Parameter Group
   version: 1.0.0
+  description: Creates a new cache parameter group.
 schemes:
 - http
 produces:
