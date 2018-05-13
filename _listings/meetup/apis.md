@@ -38,17 +38,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/meetup/urlname-get.md
-- name: Meetup Member groups
-  description: |-
-    Lists the authenticated member's groups in the order of leadership,
-    next upcoming event, then alphabetical order by name
+- name: Meetup Search Pro Groups
+  description: Name and statistics range search for the meetup groups belonging to
+    Pro organization.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
   humanURL: http://www.meetup.com/
   baseURL: https://api.meetup.com//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/meetup/self-groups-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/meetup/pro-urlname-groups-get.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
