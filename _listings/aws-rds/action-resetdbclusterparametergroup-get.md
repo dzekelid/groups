@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Reset D B Cluster Parameter Group
   version: 1.0.0
+  description: Modifies the parameters of a DB cluster parameter group to the default
+    value.
 schemes:
 - http
 produces:
