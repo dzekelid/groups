@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Describe Cluster Subnet Groups
   version: 1.0.0
+  description: |-
+    Returns one or more cluster subnet group objects, which contain metadata about your
+                cluster subnet groups.
 schemes:
 - http
 produces:
