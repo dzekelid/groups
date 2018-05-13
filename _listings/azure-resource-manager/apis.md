@@ -27,17 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-get.md
-- name: Azure Resource Manager API Resource Groups List Resources
-  description: Get all the resources for a resource group.
+- name: Azure Resource Manager API Resource Groups Check Existence
+  description: Checks whether a resource group exists.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png
   humanURL: https://docs.microsoft.com/en-us/rest/api/resources/
   baseURL: http:://management.azure.com//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-resourcegroupname-resources-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-resourcegroupname-head.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-resourcegroupname-resources-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-resourcegroupname-head-postman.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
