@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Yammer API
-  description: 'TODO: Add Description'
+  title: Yammer API Get Suggested Groups And Users
+  description: Show suggested groups to join and users to follow.
   version: 1.0.0
 host: example.com
 basePath: /
