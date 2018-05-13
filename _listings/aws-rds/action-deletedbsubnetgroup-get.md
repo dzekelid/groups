@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Delete D B Subnet Group
   version: 1.0.0
+  description: Deletes a DB subnet group.
 schemes:
 - http
 produces:
