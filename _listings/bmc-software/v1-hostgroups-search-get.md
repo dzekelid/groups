@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: BMC Software Merged API
+  title: BMC Software API Search Hostgroups
   version: 1.0.0
+  description: Searches the hostgroups in your account
 schemes:
 - http
 produces:
