@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS ElastiCache API
+  title: Amazon ElastiCache API Modify Cache Parameter Group
   version: 1.0.0
+  description: |-
+    Modifies the parameters of a cache
+                parameter group.
 schemes:
 - http
 produces:
