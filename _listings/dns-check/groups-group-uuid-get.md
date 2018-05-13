@@ -1,12 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: DNS Record Group Monitoring API
-  description: A DNS record group is a logical collection of DNS records. DNS record
-    groups can have a one-to-one correlation with zone files, but other types of groupings
-    are possible as well, such as grouping by service or customer. See the DNS record
-    groups page for more details. The DNS Check API is used to request data for either
-    a specific record group, or all DNS record groups owned by your account.
+  title: DNS Record Group Monitoring API Check Group
+  description: The DNS Check API is used to request data for either a specific record
+    group, or all DNS record groups owned by your account.
   version: v1
 host: www.dnscheck.co
 basePath: /api/v1
