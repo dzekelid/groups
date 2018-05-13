@@ -28,7 +28,25 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/dns-check/groups-group-uuid-get.md
+- name: DNS Record Group Monitoring API Check Group
+  description: The DNS Check API is used to request data for either a specific record
+    group, or all DNS record groups owned by your account.
+  image: https://cdn.dnscheck.co/images/dns-check-icon.png
+  humanURL: https://www.dnscheck.co/
+  baseURL: https://www.dnscheck.co//api/v1
+  tags: Groups
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/dns-check/groups-group-uuid-get.md
 x-common:
+- type: x-developer
+  url: https://www.dnscheck.co/documentation
+- type: x-pricing
+  url: https://www.dnscheck.co/pricing
+- type: x-twitter
+  url: https://twitter.com/dns_check
+- type: x-website
+  url: https://www.dnscheck.co/
 - type: x-developer
   url: https://www.dnscheck.co/documentation
 - type: x-pricing
