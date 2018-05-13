@@ -28,17 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/yammer/yamuri-groups-json-get.md
-- name: Yammer API Get Suggested Groups And Users
-  description: Show suggested groups to join and users to follow.
+- name: Yammer API List Active Groups
+  description: List activity groups
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/535_logo.png
   humanURL: http://developer.yammer.com
   baseURL: http:://example.com//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/yammer/yamuri-suggestions-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/yammer/yamuri-groups-json-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/yammer/yamuri-suggestions-json-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/yammer/yamuri-groups-json-get-postman.md
 x-common:
 - type: x-website
   url: http://developer.yammer.com
