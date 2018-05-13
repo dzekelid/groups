@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS ElastiCache API
+  title: Amazon ElastiCache API Delete Replication Group
   version: 1.0.0
+  description: Deletes an existing replication group.
 schemes:
 - http
 produces:
