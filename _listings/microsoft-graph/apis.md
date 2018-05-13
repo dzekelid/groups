@@ -33,18 +33,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/microsoft-graph/users-id-|-userprincipalname-calendargroups-get.md
-- name: Microsoft Graph API Get Member Groups
-  description: Get member groups Return all the groups that the specified user, group,
-    or directory object is a member of. This function is transitive.
+- name: Microsoft Graph API Group Get Member Groups
+  description: 'group: getMemberGroups Return all the groups that the specified group
+    is a member of. The check is transitive, unlike reading the memberOf navigation
+    property, which returns only the groups that the group is a direct member of.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
   humanURL: https://developer.microsoft.com/en-us/graph/
   baseURL: https://graph.microsoft.com//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/microsoft-graph/users-id-|-userprincipalname-getmembergroups-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/microsoft-graph/groups-id-getmembergroups-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/microsoft-graph/users-id-|-userprincipalname-getmembergroups-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/microsoft-graph/groups-id-getmembergroups-post-postman.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
