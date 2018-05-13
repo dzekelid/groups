@@ -34,17 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-elasticache/action-revokecachesecuritygroupingress-get.md
-- name: Amazon ElastiCache API Reset Cache Parameter Group
+- name: Amazon ElastiCache API Revoke Cache Security Group Ingress
   description: |-
-    Modifies the parameters of a cache
-                parameter group to the engine or system default value.
+    Revokes ingress from a cache
+                security group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonElasticCache.png
   humanURL: https://aws.amazon.com/elasticache/
   baseURL: http:://{host}//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-elasticache/action-resetcacheparametergroup-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/aws-elasticache/action-revokecachesecuritygroupingress-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/Welcome.html
