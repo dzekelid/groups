@@ -27,7 +27,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-products-productid-groups-groupid-delete.md
+- name: Azure API Management API Groups ListByService
+  description: Lists a collection of groups defined within a service instance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-api-management.png
+  humanURL: https://azure.microsoft.com/en-us/services/api-management/
+  baseURL: http:://management.azure.com//
+  tags: Groups
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-groups-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/azure-api-management/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-apimanagement-service-servicename-groups-get-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/api-management/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/api-management/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/api-management/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/api-management/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/api-management/
 - type: x-pricing
