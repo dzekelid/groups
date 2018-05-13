@@ -38,15 +38,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/meetup/urlname-get.md
-- name: Meetup Recommended Groups
-  description: Returns groups Meetup finds relevant to you
+- name: Meetup Recommended Groups Ignore
+  description: Provides a form of feedback by requesting to remove a group from future
+    recommendations
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
   humanURL: http://www.meetup.com/
   baseURL: https://api.meetup.com//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/meetup/recommended-groups-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/meetup/recommended-groups-ignores-urlname-post.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
