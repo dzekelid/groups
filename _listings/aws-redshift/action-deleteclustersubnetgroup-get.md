@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Delete Cluster Subnet Group
   version: 1.0.0
+  description: Deletes the specified cluster subnet group.
 schemes:
 - http
 produces:
