@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Yammer API
-  description: 'TODO: Add Description'
+  title: Yammer API Delete Leave A Group
+  description: Join the group specified by the numeric string ID.
   version: 1.0.0
 host: example.com
 basePath: /
