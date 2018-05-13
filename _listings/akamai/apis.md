@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API Associate Multiple Activation Files for a DPC
-  description: Associate Multiple Activation Files for a DPC
+- name: Akamai API List Statistics per Reporting Group
+  description: List Statistics per Reporting Group
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/akamai/galaxy-v1-client-groups-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/akamai/billing-center-api-v2-reporting-groups-reportinggroupid-products-productid-statistics-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
