@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Load Balancing API
+  title: AWS Elastic Load Balancing API Set Security Groups
   version: 1.0.0
+  description: Associates the specified security groups with the specified load balancer.
 schemes:
 - http
 produces:
