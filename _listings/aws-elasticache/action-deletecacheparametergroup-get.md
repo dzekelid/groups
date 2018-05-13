@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS ElastiCache API
+  title: Amazon ElastiCache API Delete Cache Parameter Group
   version: 1.0.0
+  description: |-
+    Deletes the specified cache parameter
+                group.
 schemes:
 - http
 produces:
