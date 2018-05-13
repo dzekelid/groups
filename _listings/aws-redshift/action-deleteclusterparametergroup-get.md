@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Delete Cluster Parameter Group
   version: 1.0.0
+  description: Deletes a specified Amazon Redshift parameter group.
 schemes:
 - http
 produces:
