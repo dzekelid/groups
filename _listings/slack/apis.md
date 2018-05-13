@@ -40,17 +40,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/groups-archive-post.md
-- name: Slack Remove User From Group
-  description: Removes a user from a private channel.
+- name: Slack Mark Group
+  description: Sets the read cursor in a private channel.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://slack.com
   baseURL: https://slack.com//api
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/groups-kick-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/groups-mark-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/groups-kick-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/groups-mark-post-postman.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
