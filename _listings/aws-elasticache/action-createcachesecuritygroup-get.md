@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS ElastiCache API
+  title: Amazon ElastiCache API Create Cache Security Group
   version: 1.0.0
+  description: Creates a new cache security group.
 schemes:
 - http
 produces:
