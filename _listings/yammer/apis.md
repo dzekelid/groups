@@ -28,7 +28,7 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/yammer/yamuri-groups-json-get.md
-- name: Yammer API Create Join A Group
+- name: Yammer API Delete Leave A Group
   description: Join the group specified by the numeric string ID.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/535_logo.png
   humanURL: http://developer.yammer.com
@@ -36,9 +36,9 @@ apis:
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/yammer/yamuri-group-memberships-json-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/yammer/yamuri-group-memberships-json-delete.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/yammer/yamuri-group-memberships-json-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/yammer/yamuri-group-memberships-json-delete-postman.md
 x-common:
 - type: x-website
   url: http://developer.yammer.com
