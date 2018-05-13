@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Revoke Security Group Ingress
   version: 1.0.0
+  description: Removes one or more ingress rules from a security group.
 schemes:
 - http
 produces:
