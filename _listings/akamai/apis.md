@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API Get Client Groups
-  description: Get Client Groups
+- name: Akamai API Associate Multiple Activation Files for a DPC
+  description: Associate Multiple Activation Files for a DPC
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/akamai/galaxy-v1-client-groups-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/akamai/galaxy-v1-client-groups-post.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
