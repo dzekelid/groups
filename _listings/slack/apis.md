@@ -40,17 +40,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/groups-archive-post.md
-- name: Slack Enable Group
-  description: Enable a User Group
+- name: Slack Invite User To Group
+  description: Invites a user to a private channel.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://slack.com
   baseURL: https://slack.com//api
   tags: Groups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/usergroups-enable-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/groups-invite-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/usergroups-enable-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/slack/groups-invite-post-postman.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
