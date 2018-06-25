@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "Instructure Canvas Users API List your groups",
-    "_postman_id": "6f8cdaa2-f9d2-4de2-903b-5f41c387a251",
+    "_postman_id": "ac76191f-b196-4305-87cc-ae0f20ef2ab3",
     "description": "List your groups.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
@@ -10,7 +10,7 @@
       "name": "Users",
       "item": [
         {
-          "id": "8b6d1417-4099-4612-a965-bc47639a57bb",
+          "id": "94d706f1-70a2-425f-ad24-3ebbe95c0b79",
           "name": "list-favorite-groups",
           "request": {
             "url": "http://canvas.instructure.com/api/v1/users/self/favorites/groups",
@@ -25,12 +25,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "399e12ee-3622-45c1-911a-a8252f91f320"
+              "id": "43f8398d-fee4-4e71-97af-fe2cf86a3d74"
             }
           ]
         },
         {
-          "id": "bd8e4692-da97-498e-adaa-e41d49f6ac1b",
+          "id": "eb5a8a67-a49c-43b5-84b0-7f6883f12537",
           "name": "reset-group-favorites",
           "request": {
             "url": "http://canvas.instructure.com/api/v1/users/self/favorites/groups",
@@ -45,12 +45,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "2160e3ea-9389-401f-a5c7-fa4fc8f6517f"
+              "id": "adc5e711-b2ea-4341-b588-7f7d88f67efa"
             }
           ]
         },
         {
-          "id": "a5c8317f-a381-4b91-bdac-84749fe7fd8a",
+          "id": "702c1234-9743-4ccd-aaef-74da808cf1db",
           "name": "add-group-to-favorites",
           "request": {
             "url": {
@@ -80,12 +80,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "280d7766-be3b-4c3c-8832-35cc9b5ed67a"
+              "id": "bfb679a1-f24a-4f4d-96f7-f56a1b3e953f"
             }
           ]
         },
         {
-          "id": "d3937ff8-4abd-4301-801b-b61b916a49ba",
+          "id": "3e3cfe22-f1a0-449a-bb74-dadb816cb0ee",
           "name": "remove-group-from-favorites",
           "request": {
             "url": {
@@ -115,12 +115,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "450b493c-200a-4b53-822d-6607b6d3b251"
+              "id": "cd910a22-1e67-4265-a599-785379c6949f"
             }
           ]
         },
         {
-          "id": "b22dcbc2-b6d4-425d-b236-57a0906da778",
+          "id": "acbcd4a2-b068-448f-a835-97f4601df958",
           "name": "list-your-groups",
           "request": {
             "url": "http://canvas.instructure.com/api/v1/users/self/groups?context_type=%7B%7D",
@@ -135,7 +135,7 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "244b4f3d-7c8b-4e67-9101-f473d70bc0bd"
+              "id": "1ea8e77a-f505-4d89-80e0-26966dc6c940"
             }
           ]
         }

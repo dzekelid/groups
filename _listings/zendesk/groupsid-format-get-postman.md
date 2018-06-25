@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "Sales Force Desk API Get Group",
-    "_postman_id": "925c6be0-27a3-47db-856a-c72cd4c80554",
+    "_postman_id": "c38b4fe6-e515-4a6e-ba34-7e58b09dbf26",
     "description": "Get group.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
@@ -10,7 +10,7 @@
       "name": "Groups",
       "item": [
         {
-          "id": "bf4a89b1-2c9a-45c3-b624-6d47bcf7a682",
+          "id": "3df50030-60fc-486a-8980-bf89ab84e9cf",
           "name": "get-groups",
           "request": {
             "url": "http://yoursite.desk.com/api/v2/groups.json?format=%7B%7D",
@@ -25,12 +25,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "7d92feb0-febd-4f9b-b71b-ea6f31a52245"
+              "id": "7c60573b-324e-4cbe-93c8-35a6f0452ee0"
             }
           ]
         },
         {
-          "id": "a84c35fb-6629-475e-b783-dccc7b57877e",
+          "id": "164fab74-14b8-4afe-a89d-80a25e2db6dd",
           "name": "get-group",
           "request": {
             "url": {
@@ -67,7 +67,7 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "cf9a9e27-229e-4541-82b9-295806b7ee0b"
+              "id": "c94c8148-8519-481a-a11e-873b575ead7b"
             }
           ]
         }

@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "Instructure Canvas Groups API Group activity stream summary",
-    "_postman_id": "d5a63391-058a-4310-912e-48f221e245c1",
+    "_postman_id": "22ff7e06-bacf-40a4-9705-048967c80cad",
     "description": "Group activity stream summary.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
@@ -10,7 +10,7 @@
       "name": "Groups",
       "item": [
         {
-          "id": "90884d0e-1e8e-48d2-a58d-74d004535d9e",
+          "id": "b5678bec-b5cc-4902-a209-c52d5e7f9eba",
           "name": "create-a-group",
           "request": {
             "url": "http://canvas.instructure.com/api/v1/groups?description=%7B%7D&is_public=%7B%7D&join_level=%7B%7D&name=%7B%7D&storage_quota_mb=%7B%7D",
@@ -25,12 +25,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "cca6ea6d-5d2a-4f77-adbd-9656206be6e2"
+              "id": "6790680c-2688-4390-84ae-390bd753e8a6"
             }
           ]
         },
         {
-          "id": "ed7d9c9d-e4e8-4ffa-bbff-033bfb31bf07",
+          "id": "f47ae2fb-b5f9-4fec-b3e0-48d4ff95bcd8",
           "name": "get-a-single-group",
           "request": {
             "url": {
@@ -67,12 +67,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "a265fa62-e6f7-4a4e-b36f-4c5d0344e832"
+              "id": "6c89b43f-74ee-4bc8-8591-c4c7830effcb"
             }
           ]
         },
         {
-          "id": "324382c1-79fe-4186-ad7a-1a3a9b382967",
+          "id": "088a9935-96e9-415c-8edb-2424b3a3bf48",
           "name": "edit-a-group",
           "request": {
             "url": {
@@ -139,12 +139,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "09f3d466-b5bb-4a03-b2cb-18653b169f50"
+              "id": "859c7f80-9a50-47ce-be55-e4b1175d19a6"
             }
           ]
         },
         {
-          "id": "29f7fc76-c07b-4d46-9f77-a94b205528e0",
+          "id": "4525f049-bca1-49a4-9829-36519e86456c",
           "name": "delete-a-group",
           "request": {
             "url": {
@@ -174,12 +174,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "a20ae4c4-eae1-4df4-9733-58a45f265dd7"
+              "id": "31fa59cd-ce07-43e5-ac86-c53a4997b2a8"
             }
           ]
         },
         {
-          "id": "2caafe15-74b8-4c5b-8ffc-263ea0884178",
+          "id": "a21f29f9-c6ed-40bd-9378-345fe27edb14",
           "name": "group-activity-stream",
           "request": {
             "url": {
@@ -209,12 +209,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "71538a6a-acb6-4d62-8e39-d00bd9ed5c2b"
+              "id": "c4622f66-9a77-4c93-9111-0f79bfb9208e"
             }
           ]
         },
         {
-          "id": "24c1dbff-1f72-4b87-81f3-c118b61deb8b",
+          "id": "ee65a375-475c-4e40-8786-faa98f02263a",
           "name": "group-activity-stream-summary",
           "request": {
             "url": {
@@ -244,7 +244,7 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "8a6c6461-24cf-47fa-9c01-ebfbca04936d"
+              "id": "d1cf02f2-7596-4db7-8ae5-db21341d3839"
             }
           ]
         }

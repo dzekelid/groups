@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "Instructure Canvas Courses API Delete an outcome group",
-    "_postman_id": "4991bda9-0f8e-42ca-89f1-68224cfc8fb9",
+    "_postman_id": "458d8068-cb78-4ee2-a4eb-d6a5d4ac98ab",
     "description": "Delete an outcome group.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
@@ -10,7 +10,7 @@
       "name": "Courses",
       "item": [
         {
-          "id": "96582743-ca1a-4912-972e-f5ff0e5eac79",
+          "id": "6195ac85-e2e2-4fb9-9c9b-0248d8eff26d",
           "name": "list-assignment-groups",
           "request": {
             "url": {
@@ -62,12 +62,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "a4a3c378-f8cb-4082-b6dc-58747df4f2a6"
+              "id": "63461f7c-04b4-4d72-b448-9efb560c7d06"
             }
           ]
         },
         {
-          "id": "0287a1cd-9145-46a3-bdbb-2ececc495456",
+          "id": "4a35f9d2-d40c-4004-a14a-8898d07cfadd",
           "name": "create-an-assignment-group",
           "request": {
             "url": {
@@ -119,12 +119,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "f428b596-dc9f-4c80-b886-76346614a5cc"
+              "id": "3a9193e7-644d-4f2a-bff2-26db5f8662cd"
             }
           ]
         },
         {
-          "id": "91480a5b-b7d3-450f-899b-a7702f304ca2",
+          "id": "2a9c92ce-543c-476f-a089-0289ce425cf1",
           "name": "get-an-assignment-group",
           "request": {
             "url": {
@@ -171,12 +171,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "ce99c863-3c58-4a77-8e68-2c554323ed5f"
+              "id": "8e785295-2431-40ad-a3c7-e3f92f7cd058"
             }
           ]
         },
         {
-          "id": "e2b9c3b2-bec2-41dd-8f8f-1ea7a2254e23",
+          "id": "2de409e9-8f34-4162-92e4-819f15238d52",
           "name": "edit-an-assignment-group",
           "request": {
             "url": {
@@ -206,12 +206,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "4d838a3e-1bef-48c2-a125-6e3f465143d3"
+              "id": "fbfaeb1c-53f1-4591-99de-fca53bc3959b"
             }
           ]
         },
         {
-          "id": "b0693b44-e673-429f-a955-9ea23e045e8e",
+          "id": "93389ba7-3aa6-4609-80b4-e1b95588beab",
           "name": "destroy-an-assignment-group",
           "request": {
             "url": {
@@ -248,12 +248,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "9728f00b-b225-4a82-b396-56f5dc7d01f4"
+              "id": "ed618a06-7cca-48ab-ac88-b4583b6827aa"
             }
           ]
         },
         {
-          "id": "d257fa0d-c35e-4519-b315-05630ed30d8b",
+          "id": "c38efc0a-bca5-45ea-afcc-b8ade17bc19a",
           "name": "list-the-groups-available-in-a-context",
           "request": {
             "url": {
@@ -290,12 +290,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "ba1a9b3f-c03e-472e-9780-7edc1c4e72c1"
+              "id": "a41f5dce-8100-40bf-b3dc-d3e34cd07f71"
             }
           ]
         },
         {
-          "id": "6fd4d9ea-f5f8-43e1-8c44-f3c82a94ca27",
+          "id": "4dd40709-b775-43fa-a78a-83c4822fe4b1",
           "name": "get-all-outcome-groups-for-context",
           "request": {
             "url": {
@@ -325,12 +325,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "ce6acc4b-2332-4517-9977-323876f4bbd3"
+              "id": "29fcbc58-0510-4141-84e1-636a42fbdc6a"
             }
           ]
         },
         {
-          "id": "353a880c-e992-4777-a485-78a9ed052f08",
+          "id": "3e9beb10-b5c8-421a-8050-65654fd840b6",
           "name": "delete-an-outcome-group",
           "request": {
             "url": {
@@ -360,7 +360,7 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "3e0cf7dd-cca5-4439-8ed8-12ac71707e27"
+              "id": "f976569f-d219-4151-aee9-eb41d24a2669"
             }
           ]
         }

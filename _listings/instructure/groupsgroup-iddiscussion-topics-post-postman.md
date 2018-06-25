@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "Instructure Canvas Groups API Create a new discussion topic",
-    "_postman_id": "e09d1c0b-12e4-4fdc-ab2c-21e219d4454c",
+    "_postman_id": "01938385-d1d7-48b8-b254-0573162e6f88",
     "description": "Create a new discussion topic.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
@@ -10,7 +10,7 @@
       "name": "Groups",
       "item": [
         {
-          "id": "ee8d2dd4-e7fc-409c-8c3e-230b8498acf3",
+          "id": "6f2ca231-19d6-4fd9-b10e-fb852ae5f123",
           "name": "create-a-group",
           "request": {
             "url": "http://canvas.instructure.com/api/v1/groups?description=%7B%7D&is_public=%7B%7D&join_level=%7B%7D&name=%7B%7D&storage_quota_mb=%7B%7D",
@@ -25,12 +25,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "efa60045-29e3-4b34-9687-41fece5da703"
+              "id": "1ad74878-3b31-4df3-99de-4c65d980eada"
             }
           ]
         },
         {
-          "id": "5b30f834-f769-4769-9c77-744fd3eda570",
+          "id": "c22bce43-e1f2-4041-8c32-5b218de6cd37",
           "name": "get-a-single-group",
           "request": {
             "url": {
@@ -67,12 +67,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "d76e89d5-7457-4a16-b172-08578ef31501"
+              "id": "c1daf083-4d2e-4c36-adea-1487b598a31c"
             }
           ]
         },
         {
-          "id": "ea603ca2-5f00-435c-b1fb-ec4fb6a6a429",
+          "id": "9f2d2629-3364-48f2-84fc-aad1b58358ec",
           "name": "edit-a-group",
           "request": {
             "url": {
@@ -139,12 +139,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "cd4d695c-0746-4a38-a845-e4b89bb63ef2"
+              "id": "b6006c65-963c-482c-9896-986c8980f9d8"
             }
           ]
         },
         {
-          "id": "77cfc3d6-5c85-4ebf-aa66-e2afe2e4af43",
+          "id": "8a7af048-bdbb-4652-8f56-84f3263c18cd",
           "name": "delete-a-group",
           "request": {
             "url": {
@@ -174,12 +174,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "689f5ece-932a-4be8-85c3-eaeea545a2e1"
+              "id": "8266b5a5-7c6c-4780-a5b6-d30b25ceb5ea"
             }
           ]
         },
         {
-          "id": "5ddf8c6a-7bf8-40bf-8506-45ee0d6b139e",
+          "id": "099f2a51-772c-450c-b813-6df2097f0020",
           "name": "group-activity-stream",
           "request": {
             "url": {
@@ -209,12 +209,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "03c6b539-e94e-499c-a692-9754c7c3fa04"
+              "id": "a525dac3-d51f-436e-9c2f-96715427b334"
             }
           ]
         },
         {
-          "id": "343b8705-05d2-4f49-891a-75de2abc6e9f",
+          "id": "284f7b8b-6ff0-4402-b0e9-a6b6ed378a61",
           "name": "group-activity-stream-summary",
           "request": {
             "url": {
@@ -244,12 +244,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "0ed49784-4cc1-4e83-9eec-d5f482289dc0"
+              "id": "e70507c0-9ba8-445e-9253-9012322efacf"
             }
           ]
         },
         {
-          "id": "d4ebf534-09c4-420a-aa97-64dba8c7a8a1",
+          "id": "d78ae7a6-fdaa-4762-a189-2fb5054a013b",
           "name": "redirect-to-the-assignment-override-for-a-group",
           "request": {
             "url": {
@@ -279,12 +279,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "49f4acc4-6f2f-4a6e-bdb3-f68eb0a0c141"
+              "id": "1f505326-0106-436c-b371-464b0e87b2ef"
             }
           ]
         },
         {
-          "id": "1cb3dfe1-748a-4a8a-bea6-5815dbf32bb8",
+          "id": "bbd16416-799b-4337-9fdf-4136d8d230e4",
           "name": "list-conferences",
           "request": {
             "url": {
@@ -314,12 +314,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "c106354e-b512-450e-ac5e-b1719600c9ba"
+              "id": "4d901369-964b-4519-acb8-d85359862c92"
             }
           ]
         },
         {
-          "id": "ce3884bf-042f-4938-90ce-8aadfce00898",
+          "id": "a58f94dd-ee8d-4572-bdf6-06382cf01db0",
           "name": "list-content-exports",
           "request": {
             "url": {
@@ -349,12 +349,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "220bc71b-d4c0-49ed-81f8-8657adc71088"
+              "id": "b35f79b3-9d7d-4b43-834d-53abaf2d8a9a"
             }
           ]
         },
         {
-          "id": "2bcb897a-ffd7-4e01-ac35-3879ac3f2a3d",
+          "id": "25bbf215-0471-40ed-b18f-b8976805df5c",
           "name": "export-content",
           "request": {
             "url": {
@@ -396,12 +396,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "060583c4-806a-4e2c-afac-8f0ab49daafd"
+              "id": "4b4b4154-783d-47e7-87d3-ceb76b092ec6"
             }
           ]
         },
         {
-          "id": "6fc0e40e-e037-41ef-bdf2-6067c0a778ea",
+          "id": "1eeabed1-99cc-493f-920a-14ab04b68f94",
           "name": "show-content-export",
           "request": {
             "url": {
@@ -431,12 +431,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "7be86aee-809f-44f6-abff-49086cd15eb6"
+              "id": "786c43ec-65f5-4c91-bb2b-d1cec0ec5c3a"
             }
           ]
         },
         {
-          "id": "5205107e-798a-4f8b-b911-c0403d1aa117",
+          "id": "620e5ebf-dba1-4ec3-8b40-aad822ecb53e",
           "name": "list-licenses",
           "request": {
             "url": {
@@ -466,12 +466,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "f0d21549-9d64-4196-b019-98737130a9b4"
+              "id": "1eaac791-eabb-4ed6-8ccf-0cd8495647cf"
             }
           ]
         },
         {
-          "id": "1c178b13-9d59-40f8-abf7-b0039b3bd3f4",
+          "id": "728a63b9-731d-4359-9848-177457722785",
           "name": "list-content-migrations",
           "request": {
             "url": {
@@ -501,12 +501,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "c85f6083-a5d5-4253-8464-eb511e9f301c"
+              "id": "0e4a484c-9a92-4bcb-aef7-c9342ca4e368"
             }
           ]
         },
         {
-          "id": "17fb7fb1-f676-471c-a87f-f827e86e26e9",
+          "id": "201fbd4c-5d53-4e89-aecd-0541ea66c950",
           "name": "create-a-content-migration",
           "request": {
             "url": {
@@ -618,12 +618,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "4a7eb17a-1abb-4bd0-a740-3222235add7e"
+              "id": "001d4609-e8d2-4a1b-b841-5b94a6cdf7c3"
             }
           ]
         },
         {
-          "id": "f7bc28e1-2d3f-4698-8a7f-0dbadc58ba5d",
+          "id": "2aa18e6f-3b88-4ee7-bf60-e7ed184e210f",
           "name": "list-migration-issues",
           "request": {
             "url": {
@@ -653,12 +653,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "5d6d7b2c-fb5f-4b55-8704-e79290b9d7ef"
+              "id": "6f33ce2e-6630-473d-aebd-e1d9e28aadea"
             }
           ]
         },
         {
-          "id": "3183d39e-1704-4ec1-862d-535f21001a24",
+          "id": "bf3ea549-b19d-4bf8-818c-a1d80fc46981",
           "name": "get-a-migration-issue",
           "request": {
             "url": {
@@ -693,12 +693,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "1b58f340-181f-4c46-8df0-7d8e7ed384ad"
+              "id": "a5a008ba-e483-4439-9452-043edf1b6e70"
             }
           ]
         },
         {
-          "id": "c88ae534-7809-4721-a13a-3f88aed437c8",
+          "id": "d97d2ca7-e352-44a4-9754-6d8e674313b4",
           "name": "update-a-migration-issue",
           "request": {
             "url": {
@@ -740,12 +740,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "20632a84-4c91-43af-ab4e-1337b56399be"
+              "id": "28dd962e-bf95-434c-a4b9-d5fa57ee2805"
             }
           ]
         },
         {
-          "id": "3f7a696a-75c6-4f78-aed0-53bdf385f9e2",
+          "id": "8b518a5c-9c92-413d-aa19-bec8663e3a74",
           "name": "get-a-content-migration",
           "request": {
             "url": {
@@ -775,12 +775,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "23d9ab58-fb66-4bf5-8c1e-cc08f7d283a4"
+              "id": "c1306fa5-4bdf-43a9-982f-c65e08c4b7f1"
             }
           ]
         },
         {
-          "id": "3b692eb3-e2a9-41ee-a391-19d148fe170f",
+          "id": "2830670e-be15-4251-aee9-91eba2bdf178",
           "name": "update-a-content-migration",
           "request": {
             "url": {
@@ -810,12 +810,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "5901efa3-27d0-4a2d-b1a7-37f8bc84619d"
+              "id": "108da797-eec5-4530-93ca-a7c902689da6"
             }
           ]
         },
         {
-          "id": "e9695a1c-ec45-4f49-aeb0-a97df4f0f846",
+          "id": "d8975c6b-8e8c-48cf-b2eb-f0e7bea1917c",
           "name": "list-migration-systems",
           "request": {
             "url": {
@@ -845,12 +845,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "b5ae5e72-8e5e-47bd-80b6-4f047ba6d7a8"
+              "id": "ffa805d2-c209-45af-a2ba-bc911ef8e974"
             }
           ]
         },
         {
-          "id": "19dfc8c1-8755-467f-9020-6c4e66008422",
+          "id": "73fd1a49-53df-4460-885a-fd2c095cef9a",
           "name": "list-discussion-topics",
           "request": {
             "url": {
@@ -902,12 +902,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "70c5594f-e190-43fa-a08c-f1ed1483134a"
+              "id": "ea73f48e-d9cd-4844-a730-0c6e990044a5"
             }
           ]
         },
         {
-          "id": "1e4b1d68-33f2-4cc0-805e-10d5bc18508b",
+          "id": "2c2d5fda-3eb2-4ead-b357-73eefc0d56ea",
           "name": "create-a-new-discussion-topic",
           "request": {
             "url": {
@@ -1029,7 +1029,7 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "b51586e9-46b9-4d1e-a1e2-07242ae5b08a"
+              "id": "5e1c91bc-42ce-4b3d-a76a-74bca205f8c5"
             }
           ]
         }

@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "Instructure Canvas Courses API Destroy an Assignment Group",
-    "_postman_id": "0fa5acc9-55cc-45e1-b3d8-73bdf17ddf49",
+    "_postman_id": "d29c3b76-c52a-4317-b503-4d984da48a9f",
     "description": "Destroy an assignment group.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
@@ -10,7 +10,7 @@
       "name": "Courses",
       "item": [
         {
-          "id": "cf9ba882-c869-4ef0-ab29-b7a3678a84c0",
+          "id": "316b123b-61fa-4130-ace7-4575559504f8",
           "name": "list-assignment-groups",
           "request": {
             "url": {
@@ -62,12 +62,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "1c72085e-2d76-471b-b893-50e8f647100e"
+              "id": "d50c3912-5452-41c2-b71a-32c84f1b5fd8"
             }
           ]
         },
         {
-          "id": "41a51f96-519c-41d7-94ec-488504fbfcc6",
+          "id": "c8969836-bd77-4a74-adf7-edcadb3c1545",
           "name": "create-an-assignment-group",
           "request": {
             "url": {
@@ -119,12 +119,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "e913b607-8739-44b5-8e11-407ab0038b20"
+              "id": "1e664800-37c6-4d42-8b9d-143b5c1ef627"
             }
           ]
         },
         {
-          "id": "ad7e8e49-f4ba-4c2a-9e06-f0e0d1bff53e",
+          "id": "41bb304b-74d4-4ac1-aec8-ec38e6f9c350",
           "name": "destroy-an-assignment-group",
           "request": {
             "url": {
@@ -161,7 +161,7 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "35cf8dc8-e6e6-4a2b-a8cc-59323a93839b"
+              "id": "9382b8c8-a200-42e1-8770-06536f34ec5c"
             }
           ]
         }

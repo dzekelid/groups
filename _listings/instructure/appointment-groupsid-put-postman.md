@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "Instructure Canvas Appointment Groups API Update an appointment group",
-    "_postman_id": "b3ed36c0-b679-4d8b-97a3-84200942603e",
+    "_postman_id": "4b2e8576-5ff6-4e5e-a70b-f1042fae48de",
     "description": "Update an appointment group.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
@@ -10,7 +10,7 @@
       "name": "Appointment",
       "item": [
         {
-          "id": "96e647d1-2ed9-420d-9a98-06857b053056",
+          "id": "11a0c3f0-dec9-4bff-ae96-29bbbf377820",
           "name": "list-appointment-groups",
           "request": {
             "url": "http://canvas.instructure.com/api/v1/appointment_groups?context_codes=%5B%7B%7D%5D&include=%5B%7B%7D%5D&include_past_appointments=%7B%7D&scope=%7B%7D",
@@ -25,12 +25,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "97483e12-cfad-4667-bdb2-377f3f3abb6e"
+              "id": "24866131-6ada-4108-b80a-dc318ab2685b"
             }
           ]
         },
         {
-          "id": "f3d76615-2c14-4139-b26e-4af646911bf9",
+          "id": "77b83b24-0cb7-4146-bba6-c16f41dd80ae",
           "name": "create-an-appointment-group",
           "request": {
             "url": "http://canvas.instructure.com/api/v1/appointment_groups?appointment_group[context_codes=%5B%7B%7D%5D&appointment_group[description]=%7B%7D&appointment_group[location_address]=%7B%7D&appointment_group[location_name]=%7B%7D&appointment_group[max_appointments_per_participant]=%7B%7D&appointment_group[min_appointments_per_participant]=%7B%7D&appointment_group[new_appointments][X=%5B%7B%7D%5D&appointment_group[participants_per_appointment]=%7B%7D&appointment_group[participant_visibility]=%7B%7D&appointment_group[publish]=%7B%7D&appointment_group[sub_context_codes=%5B%7B%7D%5D&appointment_group[title]=%7B%7D",
@@ -45,12 +45,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "016aba10-c12d-47d6-9ca8-87d2f765d64a"
+              "id": "eb7bede6-749c-4604-ab3d-3322d2e02211"
             }
           ]
         },
         {
-          "id": "1af97cfd-7843-4192-8cdc-88b9e4dbff1d",
+          "id": "7c635bd9-1c94-4164-968a-2bacf27c0650",
           "name": "get-a-single-appointment-group",
           "request": {
             "url": {
@@ -87,12 +87,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "37449356-15e4-404c-9fe5-59275eca49d0"
+              "id": "c040880b-af3b-43ba-b95f-e9b2ce232522"
             }
           ]
         },
         {
-          "id": "60d08bc4-cca1-4a3f-851a-91c9edb79006",
+          "id": "b4030972-0d12-4d3a-800a-9836f8bd0df1",
           "name": "update-an-appointment-group",
           "request": {
             "url": {
@@ -184,12 +184,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "950268ac-6bd7-4d9b-ba0a-c8c7861436ef"
+              "id": "862e5747-03eb-4d75-958f-fdb0379153ac"
             }
           ]
         },
         {
-          "id": "ba3f2a37-cc34-43e8-865d-f692768c88d4",
+          "id": "8002ae8e-881c-4082-aeb1-306e6423d6d1",
           "name": "delete-an-appointment-group",
           "request": {
             "url": {
@@ -226,7 +226,7 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "8999f32b-e5d2-49e1-82a9-faa1db6d6ad4"
+              "id": "b9d31a7a-2908-4f01-a1e5-497c065b0fa1"
             }
           ]
         }

@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instru
 x-kinRank: "8"
 x-alexaRank: "367"
 tags: Groups
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/instructure/apis.md
 specificationVersion: "0.14"
 apis:
@@ -797,6 +797,8 @@ apis:
   baseURL: https://canvas.instructure.com//api/v1//groups/{group_id}/discussion_topics/topic_id
   tags: Groups,Group,Id,Discussion,Topics,Topic,Id
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/instructure/groupsgroup-iddiscussion-topicstopic-id-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/instructure/groupsgroup-iddiscussion-topicstopic-id-delete-openapi.md
 - name: Instructure Canvas Groups API Get a single topic

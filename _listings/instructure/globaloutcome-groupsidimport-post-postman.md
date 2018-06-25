@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "Instructure Canvas Global API Import an outcome group",
-    "_postman_id": "9b90ce5f-a91b-4e3c-879a-e40627ffa543",
+    "_postman_id": "a7e7442f-4d2f-46c1-b410-c851e1a32bb4",
     "description": "Import an outcome group.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
@@ -10,7 +10,7 @@
       "name": "Global",
       "item": [
         {
-          "id": "4c74e504-e4e6-4630-ae3c-8b2a0d1ec79d",
+          "id": "7e8c4783-9614-4a08-aee9-1765001666fe",
           "name": "show-an-outcome-group",
           "request": {
             "url": {
@@ -40,12 +40,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "320addf2-3417-4977-935d-853196e65fca"
+              "id": "ebb79ab1-7377-4fd5-9de4-889cd3580c60"
             }
           ]
         },
         {
-          "id": "ca23f53f-ef58-47a4-a0f1-675a3ba5b55b",
+          "id": "524f73fd-206a-44c4-9556-b98c3cf30081",
           "name": "update-an-outcome-group",
           "request": {
             "url": {
@@ -97,12 +97,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "bc08d104-b84e-455a-a169-7ee2954265e8"
+              "id": "2fb99eb8-7376-4deb-aab3-64933807d78f"
             }
           ]
         },
         {
-          "id": "55c28d1a-1cba-46b6-8e77-805d04760d50",
+          "id": "ca35c5cb-d5be-48e3-a1ac-3156aca6e90a",
           "name": "delete-an-outcome-group",
           "request": {
             "url": {
@@ -132,12 +132,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "0f096410-b142-4a5b-862c-a31f776f5957"
+              "id": "fbc00c02-29b8-4a0d-9d83-ea90b8e5a56f"
             }
           ]
         },
         {
-          "id": "1820dd38-c233-41d4-86d6-548c04477821",
+          "id": "4773b54d-fc90-459f-8c10-c3a09a4bf490",
           "name": "import-an-outcome-group",
           "request": {
             "url": {
@@ -174,7 +174,7 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "8d1332eb-2653-4d50-b603-ecaea55e3fa8"
+              "id": "046aa258-d1e3-436a-9add-66e71ea922bd"
             }
           ]
         }

@@ -1,23 +1,21 @@
 ---
 name: YouTube
 x-slug: youtube
-description: YouTube allows billions of people to discover, watch and share originally-created
-  videos. YouTube provides a forum for people to connect, inform, and inspire others
-  across the globe and acts as a distribution platform for original content creators
-  and advertisers large and small.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
+description: Enjoy the videos and music you love, upload original content, and share
+  it all with friends, family, and the world on YouTube.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
 x-kinRank: "9"
-x-alexaRank: "0"
+x-alexaRank: "2"
 tags: Groups
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/youtube/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Youtube Delete Groups
   x-api-slug: youtube
   description: Deletes a group.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1//groups
   tags: Groups
@@ -31,7 +29,7 @@ apis:
   description: Returns a collection of groups that match the API request parameters.
     For example, you can retrieve all groups that the authenticated user owns, or
     you can retrieve one or more groups by their unique IDs.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1//groups
   tags: Groups
@@ -43,7 +41,7 @@ apis:
 - name: Youtube Add Groups
   x-api-slug: youtube
   description: Creates a group.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1//groups
   tags: Groups
@@ -53,7 +51,7 @@ apis:
 - name: Youtube Put Groups
   x-api-slug: youtube
   description: Modifies a group. For example, you could change a group's title.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1//groups
   tags: Groups
@@ -62,11 +60,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/youtube/groups-put-openapi.md
 - name: Youtube
   x-api-slug: youtube
-  description: YouTube allows billions of people to discover, watch and share originally-created
-    videos. YouTube provides a forum for people to connect, inform, and inspire others
-    across the globe and acts as a distribution platform for original content creators
-    and advertisers large and small.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
+  description: Enjoy the videos and music you love, upload original content, and share
+    it all with friends, family, and the world on YouTube.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Groups
@@ -90,10 +86,14 @@ x-common:
   url: https://code.google.com/p/gdata-issues/issues/list?q=label:API-YouTube
 - type: x-buttons
   url: https://developers.google.com/youtube/youtube_subscribe_button
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/youtube
 - type: x-deprecation-policy
   url: https://developers.google.com/youtube/youtube-api-list
 - type: x-developer
   url: https://developers.google.com/youtube/
+- type: x-email
+  url: copyright@youtube.com
 - type: x-getting-started
   url: https://developers.google.com/youtube/v3/getting-started
 - type: x-github
@@ -106,6 +106,8 @@ x-common:
   url: https://developers.google.com/youtube/training/
 - type: x-twitter
   url: https://twitter.com/YouTubeDev
+- type: x-twitter
+  url: https://twitter.com/YouTube
 - type: x-website
   url: https://www.youtube.com/
 - type: x-widgets

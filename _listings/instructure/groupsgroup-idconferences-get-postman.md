@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "Instructure Canvas Groups API List conferences",
-    "_postman_id": "f8069677-8e09-4bcf-a36c-52edcb8fc57f",
+    "_postman_id": "2c102d4d-7f2b-4e49-8367-b114611645a4",
     "description": "List conferences.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
@@ -10,7 +10,7 @@
       "name": "Groups",
       "item": [
         {
-          "id": "5d8a7ef4-7c10-4720-b74c-522bb0c2875f",
+          "id": "674b7a81-f21b-48f4-a9b7-c7d9ab8372c9",
           "name": "create-a-group",
           "request": {
             "url": "http://canvas.instructure.com/api/v1/groups?description=%7B%7D&is_public=%7B%7D&join_level=%7B%7D&name=%7B%7D&storage_quota_mb=%7B%7D",
@@ -25,12 +25,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "3f5abfcd-e4ee-4945-93e6-7cf319d920f9"
+              "id": "b1a2abfe-e12a-4824-af83-6f22b00cd821"
             }
           ]
         },
         {
-          "id": "ef6290c0-9d01-4d86-a792-cc4af353229d",
+          "id": "6ebd3e37-f11a-4d22-9349-9e0fee09024b",
           "name": "get-a-single-group",
           "request": {
             "url": {
@@ -67,12 +67,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "03dccf8f-1007-46df-bb27-6641f3744f6a"
+              "id": "138fe74c-59c4-4dc4-ab15-d6263b10d0ed"
             }
           ]
         },
         {
-          "id": "ab49fe1e-bb47-428b-897c-c58251a59394",
+          "id": "74685a63-3ebf-4846-a08b-db3cc151817a",
           "name": "edit-a-group",
           "request": {
             "url": {
@@ -139,12 +139,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "413c0157-87e9-43bf-a7c3-6713b22c3d16"
+              "id": "aa4efcd5-7961-4652-8097-57f41ecba5a9"
             }
           ]
         },
         {
-          "id": "9048381d-72f9-4c47-9764-42d571948f0b",
+          "id": "8b620dd0-d9b8-4f43-ba8c-383aabff5bee",
           "name": "delete-a-group",
           "request": {
             "url": {
@@ -174,12 +174,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "0cf97a4a-2125-4770-a723-e157d0b80f28"
+              "id": "3c0860b8-8c6b-42b2-9f7d-dd07f5e49668"
             }
           ]
         },
         {
-          "id": "65d4fd08-0e4f-4e50-9605-f7953ab1d1d4",
+          "id": "1f8d0bce-59e8-4aab-a799-7f32d866800c",
           "name": "group-activity-stream",
           "request": {
             "url": {
@@ -209,12 +209,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "0d48869b-4bde-4b22-af65-a8bd3f4226b0"
+              "id": "b1fb6868-0e02-4c6c-98b0-9c0609ed1173"
             }
           ]
         },
         {
-          "id": "69e22cf7-0f07-4c95-9999-a7fb6c52147d",
+          "id": "e34ef962-f4e2-466b-a889-2ff8a52fb29f",
           "name": "group-activity-stream-summary",
           "request": {
             "url": {
@@ -244,12 +244,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "a3c09ac1-bd69-4ec3-8d91-0fee524c8534"
+              "id": "4fa56488-e270-418a-9677-3208b5529660"
             }
           ]
         },
         {
-          "id": "2eda4769-614b-4d38-9811-acde8ab89d05",
+          "id": "6138cfcb-23c9-4358-8fcd-8bbf16705ae5",
           "name": "redirect-to-the-assignment-override-for-a-group",
           "request": {
             "url": {
@@ -279,12 +279,12 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "c7e34650-612a-459c-b1c3-dd6cb1371a7c"
+              "id": "109c0086-2f6e-4114-a56c-17b8273b742d"
             }
           ]
         },
         {
-          "id": "395f1ece-f79e-4dc9-9a06-13fe7b1545e5",
+          "id": "5f237f29-b625-46c4-beb4-99f566fd75fc",
           "name": "list-conferences",
           "request": {
             "url": {
@@ -314,7 +314,7 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "3ae86b22-9f8d-4cab-9ee4-f0483ff2822b"
+              "id": "d48facd6-ac0c-448e-8eee-3d7c3f10df18"
             }
           ]
         }

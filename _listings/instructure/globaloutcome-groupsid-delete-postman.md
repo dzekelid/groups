@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "Instructure Canvas Global API Delete an outcome group",
-    "_postman_id": "cd3d2035-3017-4597-8b51-5775691f39a7",
+    "_postman_id": "a06f4fe4-c704-4231-9b3b-fc5e913adcbf",
     "description": "Delete an outcome group.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
@@ -10,7 +10,7 @@
       "name": "Global",
       "item": [
         {
-          "id": "f2d87d1d-c38e-4a69-a901-5681c7cb5cbe",
+          "id": "739866f9-9bf0-4f3c-b03c-9a22353dfe49",
           "name": "delete-an-outcome-group",
           "request": {
             "url": {
@@ -40,7 +40,7 @@
               "status": "OK",
               "code": 200,
               "name": "Response_200",
-              "id": "0937a755-8e4b-4120-ab9e-b51f770464e1"
+              "id": "c2b61aba-de7b-4496-9b4f-4dc501425c90"
             }
           ]
         }
