@@ -13,6 +13,196 @@ produces:
 consumes:
 - application/json
 paths:
+  /?Action=DescribeDBClusterParameterGroups:
+    get:
+      summary: Describe D B Cluster Parameter Groups
+      description: Returns a list of DBClusterParameterGroup descriptions.
+      operationId: describedbclusterparametergroups
+      x-api-path-slug: actiondescribedbclusterparametergroups-get
+      parameters:
+      - in: query
+        name: DBClusterParameterGroupName
+        description: The name of a specific DB cluster parameter group to return details
+          for
+        type: string
+      - in: query
+        name: Filters.Filter.N
+        description: This parameter is not currently supported
+        type: string
+      - in: query
+        name: Marker
+        description: An optional pagination token provided by a previous        DescribeDBClusterParameterGroups
+          request
+        type: string
+      - in: query
+        name: MaxRecords
+        description: The maximum number of records to include in the response
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Cluster Parameter Groups
+  /?Action=DescribeDBParameterGroups:
+    get:
+      summary: Describe D B Parameter Groups
+      description: Returns a list of DBParameterGroup descriptions.
+      operationId: describedbparametergroups
+      x-api-path-slug: actiondescribedbparametergroups-get
+      parameters:
+      - in: query
+        name: DBParameterGroupName
+        description: The name of a specific DB parameter group to return details for
+        type: string
+      - in: query
+        name: Filters.Filter.N
+        description: This parameter is not currently supported
+        type: string
+      - in: query
+        name: Marker
+        description: An optional pagination token provided by a previous        DescribeDBParameterGroups
+          request
+        type: string
+      - in: query
+        name: MaxRecords
+        description: The maximum number of records to include in the response
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Parameter Groups
+  /?Action=DescribeDBSecurityGroups:
+    get:
+      summary: Describe D B Security Groups
+      description: Returns a list of DBSecurityGroup descriptions.
+      operationId: describedbsecuritygroups
+      x-api-path-slug: actiondescribedbsecuritygroups-get
+      parameters:
+      - in: query
+        name: DBSecurityGroupName
+        description: The name of the DB security group to return details for
+        type: string
+      - in: query
+        name: Filters.Filter.N
+        description: This parameter is not currently supported
+        type: string
+      - in: query
+        name: Marker
+        description: An optional pagination token provided by a previous        DescribeDBSecurityGroups
+          request
+        type: string
+      - in: query
+        name: MaxRecords
+        description: The maximum number of records to include in the response
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Security Groups
+  /?Action=DescribeDBSubnetGroups:
+    get:
+      summary: Describe D B Subnet Groups
+      description: Returns a list of DBSubnetGroup descriptions.
+      operationId: describedbsubnetgroups
+      x-api-path-slug: actiondescribedbsubnetgroups-get
+      parameters:
+      - in: query
+        name: DBSubnetGroupName
+        description: The name of the DB subnet group to return details for
+        type: string
+      - in: query
+        name: Filters.Filter.N
+        description: This parameter is not currently supported
+        type: string
+      - in: query
+        name: Marker
+        description: An optional pagination token provided by a previous DescribeDBSubnetGroups
+          request
+        type: string
+      - in: query
+        name: MaxRecords
+        description: The maximum number of records to include in the response
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Subnet Groups
+  /?Action=DescribeOptionGroups:
+    get:
+      summary: Describe Option Groups
+      description: Describes the available option groups.
+      operationId: describeoptiongroups
+      x-api-path-slug: actiondescribeoptiongroups-get
+      parameters:
+      - in: query
+        name: EngineName
+        description: Filters the list of option groups to only include groups associated
+          with a specific database engine
+        type: string
+      - in: query
+        name: Filters.Filter.N
+        description: This parameter is not currently supported
+        type: string
+      - in: query
+        name: MajorEngineVersion
+        description: Filters the list of option groups to only include groups associated
+          with a specific database engine version
+        type: string
+      - in: query
+        name: Marker
+        description: An optional pagination token provided by a previous DescribeOptionGroups
+          request
+        type: string
+      - in: query
+        name: MaxRecords
+        description: The maximum number of records to include in the response
+        type: string
+      - in: query
+        name: OptionGroupName
+        description: The name of the option group to describe
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Option Groups
+  /?Action=RevokeDBSecurityGroupIngress:
+    get:
+      summary: Revoke D B Security Group Ingress
+      description: Revokes ingress from a DBSecurityGroup for previously authorized
+        IP ranges or EC2 or VPC Security Groups.
+      operationId: revokedbsecuritygroupingress
+      x-api-path-slug: actionrevokedbsecuritygroupingress-get
+      parameters:
+      - in: query
+        name: CIDRIP
+        description: The IP range to revoke access from
+        type: string
+      - in: query
+        name: DBSecurityGroupName
+        description: The name of the DB security group to revoke ingress from
+        type: string
+      - in: query
+        name: EC2SecurityGroupId
+        description: The id of the EC2 security group to revoke access from
+        type: string
+      - in: query
+        name: EC2SecurityGroupName
+        description: The name of the EC2 security group to revoke access from
+        type: string
+      - in: query
+        name: EC2SecurityGroupOwnerId
+        description: The AWS Account Number of the owner of the EC2 security group        specified
+          in the EC2SecurityGroupName parameter
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Security Groups
   /?Action=AuthorizeDBSecurityGroupIngress:
     get:
       summary: Authorize D B Security Group Ingress
@@ -43,20 +233,6 @@ paths:
           in the EC2SecurityGroupName parameter
         type: string
       responses:
-        Maximum record size:
-          description: 100 KiB
-        Maximum number of records per datastore:
-          description: "100,000"
-        Maximum datastore size:
-          description: 10 MiB
-        Maximum size of a delta:
-          description: 2 MiB
-        '400: for badly-formed requests, e.g. missing or invalid parameters':
-          description: ""
-        '403: for authentication issues':
-          description: ""
-        '409: for issues where the request is well-formed but cannot be completed':
-          description: ""
         200:
           description: OK
       tags:

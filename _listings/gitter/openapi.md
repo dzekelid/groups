@@ -1,9 +1,8 @@
----
 swagger: "2.0"
 x-collection-name: Gitter
 x-complete: 1
 info:
-  title: No Title
+  title: Gitter
   version: 1.0.0
 schemes:
 - http
@@ -35,4 +34,3 @@ paths:
       tags:
       - Groups
       - Rooms
----

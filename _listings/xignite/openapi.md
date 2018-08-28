@@ -1,13 +1,12 @@
----
 swagger: "2.0"
 x-collection-name: Xignite
 x-complete: 1
 info:
-  title: Xignite Global Indices Real Time
-  description: this-web-service-provides-global-real-time-information-for-u-s--and-international-indices-
+  title: Xignite VWAP
+  description: provides-delayed-and-historical-volumeweightedaverage-price-vwap-information-
   version: 1.0.0
-host: globalindicesrealtime.xignite.com
-basePath: xglobalindicesrealtime.json/XigniteGlobalIndicesRealTime
+host: www.xignite.com
+basePath: xVWAP.json/XigniteVWAP
 schemes:
 - http
 produces:
@@ -34,4 +33,23 @@ paths:
       - List
       - Index
       - Groups
----
+  /ListIndicesByIndexGroup:
+    get:
+      summary: List Indices By Index Group
+      description: List indices by index group.
+      operationId: ListIndicesByIndexGroup
+      x-api-path-slug: listindicesbyindexgroup-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - List
+      - Indices
+      - Index
+      - Group

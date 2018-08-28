@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Azure API Management
 x-complete: 1
@@ -106,55 +105,3 @@ paths:
           description: OK
       tags:
       - Groups
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ApiManagement/service/{serviceName}/products/{productId}/groups
-  : get:
-      summary: ProductGroups ListByProducts
-      description: Lists the collection of developer groups associated with the specified
-        product.
-      operationId: ProductGroups_ListByProducts
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameproductsproductidgroups-get
-      parameters:
-      - in: query
-        name: $filter
-        description: '| Field       | Supported operators    | Supported functions                         ||-------------|------------------------|---------------------------------------------||
-          id          | ge, le, eq, ne, gt, lt | substringof, contains, startswith,
-          endswith || name        | ge, le, eq, ne, gt, lt | substringof, contains,
-          startswith, endswith || description | ge, le, eq, ne, gt, lt | substringof,
-          contains, startswith, endswith || type        | eq, ne                 |
-          N/A                                         |'
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Product Groups
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.ApiManagement/service/{serviceName}/products/{productId}/groups/{groupId}
-  : put:
-      summary: ProductGroups Create
-      description: Adds the association between the specified developer group with
-        the specified product.
-      operationId: ProductGroups_Create
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameproductsproductidgroupsgroupid-put
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Product Groups
-    delete:
-      summary: ProductGroups Delete
-      description: Deletes the association between the specified group and product.
-      operationId: ProductGroups_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-apimanagementserviceservicenameproductsproductidgroupsgroupid-delete
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Product Groups
----

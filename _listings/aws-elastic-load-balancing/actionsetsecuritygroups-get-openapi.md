@@ -13,6 +13,59 @@ produces:
 consumes:
 - application/json
 paths:
+  /?Action=DescribeTargetGroups:
+    get:
+      summary: Describe Target Groups
+      description: Describes the specified target groups or all of your target groups.
+      operationId: describeTargetGroups
+      x-api-path-slug: actiondescribetargetgroups-get
+      parameters:
+      - in: query
+        name: LoadBalancerArn
+        description: The Amazon Resource Name (ARN) of the load balancer
+        type: string
+      - in: query
+        name: Marker
+        description: The marker for the next set of results
+        type: string
+      - in: query
+        name: Names.member.N
+        description: The names of the target groups
+        type: string
+      - in: query
+        name: PageSize
+        description: The maximum number of results to return with this call
+        type: string
+      - in: query
+        name: TargetGroupArns.member.N
+        description: The Amazon Resource Names (ARN) of the target groups
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Target Groups
+  /?Action=SetSecurityGroups:
+    get:
+      summary: Set Security Groups
+      description: Associates the specified security groups with the specified load
+        balancer.
+      operationId: setSecurityGroups
+      x-api-path-slug: actionsetsecuritygroups-get
+      parameters:
+      - in: query
+        name: LoadBalancerArn
+        description: The Amazon Resource Name (ARN) of the load balancer
+        type: string
+      - in: query
+        name: SecurityGroups.member.N
+        description: The IDs of the security groups
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Security Groups
   /?Action=CreateTargetGroup:
     get:
       summary: Create Target Group
@@ -113,38 +166,6 @@ paths:
           description: OK
       tags:
       - Target Groups
-  /?Action=DescribeTargetGroups:
-    get:
-      summary: Describe Target Groups
-      description: Describes the specified target groups or all of your target groups.
-      operationId: describeTargetGroups
-      x-api-path-slug: actiondescribetargetgroups-get
-      parameters:
-      - in: query
-        name: LoadBalancerArn
-        description: The Amazon Resource Name (ARN) of the load balancer
-        type: string
-      - in: query
-        name: Marker
-        description: The marker for the next set of results
-        type: string
-      - in: query
-        name: Names.member.N
-        description: The names of the target groups
-        type: string
-      - in: query
-        name: PageSize
-        description: The maximum number of results to return with this call
-        type: string
-      - in: query
-        name: TargetGroupArns.member.N
-        description: The Amazon Resource Names (ARN) of the target groups
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Target Groups
   /?Action=ModifyTargetGroup:
     get:
       summary: Modify Target Group
@@ -219,27 +240,6 @@ paths:
           description: OK
       tags:
       - Target Groups
-  /?Action=SetSecurityGroups:
-    get:
-      summary: Set Security Groups
-      description: Associates the specified security groups with the specified load
-        balancer.
-      operationId: setSecurityGroups
-      x-api-path-slug: actionsetsecuritygroups-get
-      parameters:
-      - in: query
-        name: LoadBalancerArn
-        description: The Amazon Resource Name (ARN) of the load balancer
-        type: string
-      - in: query
-        name: SecurityGroups.member.N
-        description: The IDs of the security groups
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Security Groups
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

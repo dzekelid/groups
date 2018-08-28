@@ -6,12 +6,14 @@ info:
   title: Groups API Groups
   version: 1.0.0
   description: Creates a new monitor group.
+host: api.pingdom.com
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+basePath: /
 paths:
   '/groups ':
     ' get ':

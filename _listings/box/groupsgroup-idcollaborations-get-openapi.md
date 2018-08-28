@@ -170,6 +170,89 @@ paths:
       - Group
       - ""
       - Collaborations
+  /group_memberships:
+    post:
+      summary: Create Membership
+      description: Used to add a member to a Group.
+      operationId: createGroupMembership
+      x-api-path-slug: group-memberships-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: fields
+        description: Attribute(s) to include in the response
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - Group
+      - Memberships
+  /group_memberships/{GROUP_MEMBERSHIP_ID}:
+    get:
+      summary: Get Membership
+      description: Fetches a specific group membership entry.
+      operationId: getGroupMembership
+      x-api-path-slug: group-membershipsgroup-membership-id-get
+      parameters:
+      - in: query
+        name: fields
+        description: Attribute(s) to include in the response
+      - in: path
+        name: GROUP_MEMBERSHIP_ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - Group
+      - Memberships
+      - Group
+      - Membership
+    put:
+      summary: Update Membership
+      description: Used to update a group membership.
+      operationId: updateGroupMembership
+      x-api-path-slug: group-membershipsgroup-membership-id-put
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: fields
+        description: Attribute(s) to include in the response
+      - in: path
+        name: GROUP_MEMBERSHIP_ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - Group
+      - Memberships
+      - Group
+      - Membership
+    delete:
+      summary: Delete Membership
+      description: Deletes a specific group membership.
+      operationId: deleteGroupMembership
+      x-api-path-slug: group-membershipsgroup-membership-id-delete
+      parameters:
+      - in: path
+        name: GROUP_MEMBERSHIP_ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - Group
+      - Memberships
+      - Group
+      - Membership
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

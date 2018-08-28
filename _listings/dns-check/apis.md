@@ -9,37 +9,29 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18972-dns-
 x-kinRank: "8"
 x-alexaRank: "3315601"
 tags: Groups
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/dns-check/apis.md
 specificationVersion: "0.14"
 apis:
-- name: DNS Record Group Monitoring API Check Group
-  x-api-slug: dns-record-group-monitoring-api
+- name: DNS Record Group Monitoring API - Check Group
+  x-api-slug: groupsgroup-uuid-get
   description: The DNS Check API is used to request data for either a specific record
     group, or all DNS record groups owned by your account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18972-dns-check.jpg
   humanURL: https://www.dnscheck.co/
-  baseURL: https://www.dnscheck.co//api/v1//groups/:group_uuid
-  tags: Groups
+  baseURL: https://www.dnscheck.co//api/v1
+  tags: dns check, dns monitor, DNS, mx record check, spf record check, DNS General,
+    Monitoring, Stack Network, Technology, SaaS, API Provider, API Service Provider,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/dns-check/groupsgroup-uuid-get-openapi.md
-- name: DNS Record Group Monitoring API
-  x-api-slug: dns-record-group-monitoring-api
-  description: A DNS record group is a logical collection of DNS records. DNS record
-    groups can have a one-to-one correlation with zone files, but other types of groupings
-    are possible as well, such as grouping by service or customer. See the DNS record
-    groups page for more details. The DNS Check API is used to request data for either
-    a specific record group, or all DNS record groups owned by your account.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18972-dns-check.jpg
-  humanURL: https://www.dnscheck.co/
-  baseURL: https://www.dnscheck.co//api/v1
-  tags: Groups
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/groups/master/_listings/dns-check/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://disqus.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://dns.check.stack.network
 - type: x-developer
   url: https://www.dnscheck.co/documentation
 - type: x-pricing

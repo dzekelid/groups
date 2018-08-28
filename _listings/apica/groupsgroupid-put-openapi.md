@@ -3,15 +3,17 @@ swagger: "2.0"
 x-collection-name: Apica
 x-complete: 0
 info:
-  title: Groups API Groups {groupId}
+  title: Groups API Groups
   version: 1.0.0
   description: Updates a monitor group.
+host: api.pingdom.com
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+basePath: /
 paths:
   '/groups ':
     ' get ':
@@ -37,7 +39,7 @@ paths:
       - Groups
   '/groups/{groupId} ':
     ' put ':
-      summary: Groups {groupId}
+      summary: Groups
       description: Updates a monitor group.
       operationId: -groups-groupid-
       x-api-path-slug: groupsgroupid-put

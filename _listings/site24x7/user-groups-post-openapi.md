@@ -27,14 +27,6 @@ paths:
           \       \n        \n            required\n            Users to be associated
           for the group."
       responses:
-        Maximum record size:
-          description: 100 KiB
-        Maximum number of records per datastore:
-          description: "100,000"
-        Maximum datastore size:
-          description: 10 MiB
-        Maximum size of a delta:
-          description: 2 MiB
         '400: for badly-formed requests, e.g. missing or invalid parameters':
           description: ""
         '403: for authentication issues':

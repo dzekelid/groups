@@ -231,6 +231,33 @@ paths:
       - ""
       - Suppressions
       - Search
+  /asm/groups/{group_id}/suppressions/{email}:
+    delete:
+      summary: Delete Asm Groups Group  Suppressions Email
+      description: |-
+        **This endpoint allows you to remove a suppressed email address from the given suppression group.**
+
+        Suppressions are recipient email addresses that are added to [unsubscribe groups](https://sendgrid.com/docs/API_Reference/Web_API_v3/Suppression_Management/groups.html). Once a recipient's address is on the suppressions list for an unsubscribe group, they will not receive any emails that are tagged with that unsubscribe group.
+      operationId: asm.groups.group_id.suppressions.email.delete
+      x-api-path-slug: asmgroupsgroup-idsuppressionsemail-delete
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Email
+      - Asm
+      - Groups
+      - Group
+      - ""
+      - Suppressions
+      - Email
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

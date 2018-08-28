@@ -142,6 +142,117 @@ paths:
       - Group
       - ""
       - Memberships
+  /groups/{GROUP_ID}/collaborations:
+    get:
+      summary: Get Collaborations for Group
+      description: Retrieves all of the group collaborations for a given group. Note
+        this is only available to group admins.
+      operationId: getGroupCollaborations
+      x-api-path-slug: groupsgroup-idcollaborations-get
+      parameters:
+      - in: query
+        name: fields
+        description: Attribute(s) to include in the response
+      - in: path
+        name: GROUP_ID
+      - in: query
+        name: limit
+        description: The maximum number of items to return in a page
+      - in: query
+        name: offset
+        description: The item at which to begin the response
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - Groups
+      - Group
+      - ""
+      - Collaborations
+  /group_memberships:
+    post:
+      summary: Create Membership
+      description: Used to add a member to a Group.
+      operationId: createGroupMembership
+      x-api-path-slug: group-memberships-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: fields
+        description: Attribute(s) to include in the response
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - Group
+      - Memberships
+  /group_memberships/{GROUP_MEMBERSHIP_ID}:
+    get:
+      summary: Get Membership
+      description: Fetches a specific group membership entry.
+      operationId: getGroupMembership
+      x-api-path-slug: group-membershipsgroup-membership-id-get
+      parameters:
+      - in: query
+        name: fields
+        description: Attribute(s) to include in the response
+      - in: path
+        name: GROUP_MEMBERSHIP_ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - Group
+      - Memberships
+      - Group
+      - Membership
+    put:
+      summary: Update Membership
+      description: Used to update a group membership.
+      operationId: updateGroupMembership
+      x-api-path-slug: group-membershipsgroup-membership-id-put
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: fields
+        description: Attribute(s) to include in the response
+      - in: path
+        name: GROUP_MEMBERSHIP_ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - Group
+      - Memberships
+      - Group
+      - Membership
+    delete:
+      summary: Delete Membership
+      description: Deletes a specific group membership.
+      operationId: deleteGroupMembership
+      x-api-path-slug: group-membershipsgroup-membership-id-delete
+      parameters:
+      - in: path
+        name: GROUP_MEMBERSHIP_ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - Group
+      - Memberships
+      - Group
+      - Membership
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

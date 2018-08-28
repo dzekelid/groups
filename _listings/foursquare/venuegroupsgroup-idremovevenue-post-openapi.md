@@ -15,42 +15,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /venuegroups/add:
-    post:
-      summary: Post Venuegroups Add
-      description: /venuegroups/{GROUP_ID}
-      operationId: venuegroupsgroup-id
-      x-api-path-slug: venuegroupsadd-post
-      parameters:
-      - in: query
-        name: name
-        description: The name to give the group
-      - in: query
-        name: v
-        description: All requests now accept a v=YYYYMMDD param, which indicates that
-          the client is up to date as of the specified date
-      responses:
-        200:
-          description: OK
-      tags:
-      - Venuegroups
-  /venuegroups/list:
-    get:
-      summary: Get Venuegroups List
-      description: /venuegroups/{GROUP_ID}/delete
-      operationId: venuegroupsgroup-iddelete
-      x-api-path-slug: venuegroupslist-get
-      parameters:
-      - in: query
-        name: v
-        description: All requests now accept a v=YYYYMMDD param, which indicates that
-          the client is up to date as of the specified date
-      responses:
-        200:
-          description: OK
-      tags:
-      - Venuegroups
-      - List
   /venuegroups/{GROUP_ID}:
     get:
       summary: Get Venuegroups Group

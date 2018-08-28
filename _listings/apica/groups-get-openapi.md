@@ -7,12 +7,14 @@ info:
   version: 1.0.0
   description: Gets a hierarchy of all monitor groups that are visible to you as a
     user or a customer depending on the request context.
+host: api.pingdom.com
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+basePath: /
 paths:
   '/groups ':
     ' get ':

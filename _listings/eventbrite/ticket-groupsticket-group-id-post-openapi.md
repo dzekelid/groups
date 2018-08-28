@@ -190,6 +190,56 @@ paths:
       tags:
       - Ticket
       - Groups
+  /users/:user_id/ticket_groups/:
+    get:
+      summary: Get Users User Ticket Groups
+      description: |-
+        Returns a paginated response of ticket_group for the specified user.
+        The alias me (/users/me/) may be used to refer to the currently authenticated user.
+      operationId: getUsersUserTicketGroups
+      x-api-path-slug: usersuser-idticket-groups-get
+      parameters:
+      - in: query
+        name: status
+        description: 'Limits results to groups with the specific status (Valid choices
+          are: live, archived, deleted, or all)'
+        type: query
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - :user
+      - Ticket
+      - Groups
+  /users/:user_id/events/:event_id/ticket_classes/:ticket_class_id/ticket_groups/:
+    post:
+      summary: Post Users User Events Event Ticket Classes Ticket Class Ticket Groups
+      description: |-
+        Add the Ticket Class with the specified :ticket_class_id of the event with :event_id that
+        belongs to the user with :user_id to many Ticket Groups specified with ticket_group_ids.
+        If the list provided is empty, remove this ticket class from every ticket group.
+      operationId: postUsersUserEventsEventTicketClassesTicketClassTicketGroups
+      x-api-path-slug: usersuser-ideventsevent-idticket-classesticket-class-idticket-groups-post
+      parameters:
+      - in: query
+        name: ticket_group_ids
+        description: IDs of all ticket group this ticket belongs to
+        type: query
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - :user
+      - Events
+      - :event
+      - Ticket
+      - Classes
+      - :ticket
+      - Class
+      - Ticket
+      - Groups
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

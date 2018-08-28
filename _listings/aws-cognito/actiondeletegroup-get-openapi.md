@@ -148,6 +148,115 @@ paths:
           description: OK
       tags:
       - Groups
+  /?Action=GetGroup:
+    get:
+      summary: Get Group
+      description: Gets a group.
+      operationId: getGroup
+      x-api-path-slug: actiongetgroup-get
+      parameters:
+      - in: query
+        name: GroupName
+        description: The name of the group
+        type: string
+      - in: query
+        name: UserPoolId
+        description: The user pool ID for the user pool
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Groups
+  /?Action=ListGroups:
+    get:
+      summary: List Groups
+      description: Lists the groups associated with a user pool.
+      operationId: listGroups
+      x-api-path-slug: actionlistgroups-get
+      parameters:
+      - in: query
+        name: Limit
+        description: The limit of the request to list groups
+        type: string
+      - in: query
+        name: NextToken
+        description: An identifier that was returned from the previous call to this
+          operation, which can            be used to return the next set of items
+          in the list
+        type: string
+      - in: query
+        name: UserPoolId
+        description: The user pool ID for the user pool
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Groups
+  /?Action=ListUsersInGroup:
+    get:
+      summary: List Users In Group
+      description: Lists the users in the specified group.
+      operationId: listUsersInGroup
+      x-api-path-slug: actionlistusersingroup-get
+      parameters:
+      - in: query
+        name: GroupName
+        description: The name of the group
+        type: string
+      - in: query
+        name: Limit
+        description: The limit of the request to list users
+        type: string
+      - in: query
+        name: NextToken
+        description: An identifier that was returned from the previous call to this
+          operation, which can            be used to return the next set of items
+          in the list
+        type: string
+      - in: query
+        name: UserPoolId
+        description: The user pool ID for the user pool
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Groups
+  /?Action=UpdateGroup:
+    get:
+      summary: Update Group
+      description: Updates the specified group with the specified attributes.
+      operationId: updateGroup
+      x-api-path-slug: actionupdategroup-get
+      parameters:
+      - in: query
+        name: Description
+        description: A string containing the new description of the group
+        type: string
+      - in: query
+        name: GroupName
+        description: The name of the group
+        type: string
+      - in: query
+        name: Precedence
+        description: The new precedence value for the group
+        type: string
+      - in: query
+        name: RoleArn
+        description: The new role ARN for the group
+        type: string
+      - in: query
+        name: UserPoolId
+        description: The user pool ID for the user pool
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Groups
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

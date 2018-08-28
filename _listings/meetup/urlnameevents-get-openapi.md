@@ -1323,6 +1323,93 @@ paths:
       tags:
       - Events
       - Groups
+  /2/profile:
+    post:
+      summary: Profile Create (Group Join)
+      description: This method allows an authenticated member to join a group by creating
+        a profile
+      operationId: profiles
+      x-api-path-slug: 2profile-post
+      parameters:
+      - in: query
+        name: answer_{qid}
+        description: Answers to questions from groups API join_info question fields
+        type: string
+      - in: query
+        name: group_id
+        description: Id of group to join
+        type: string
+      - in: query
+        name: group_urlname
+        description: Urlname of group to join
+        type: string
+      - in: query
+        name: intro
+        description: Provides a Member an opportunity to tell the group about themselves
+        type: string
+      - in: query
+        name: new_photo
+        description: file upload for a new member photo
+        type: string
+      - in: query
+        name: photo_id
+        description: photo_id of the photo to use for this profile
+        type: string
+      - in: query
+        name: site_name
+        description: Name of members site
+        type: string
+      - in: query
+        name: site_url
+        description: Link to members site
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Profile
+  /2/profile/:gid/:mid:
+    delete:
+      summary: Profile Delete (Leave Group)
+      description: Deletes a member's group profile
+      operationId: profiles
+      x-api-path-slug: 2profilegidmid-delete
+      parameters:
+      - in: query
+        name: exit_comment
+        description: Optional message to the organizer when leaving
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Profile
+  /:urlname/boards:
+    get:
+      summary: Discussion Boards
+      description: Listings of Group discussion boards
+      operationId: boards
+      x-api-path-slug: urlnameboards-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Discussions
+  /:urlname/boards/:bid/discussions/:did:
+    get:
+      summary: Discussion Posts
+      description: Listing Group discussion posts
+      operationId: boards
+      x-api-path-slug: urlnameboardsbiddiscussionsdid-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Discussions
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

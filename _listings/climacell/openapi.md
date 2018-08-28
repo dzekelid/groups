@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: ClimaCell
 x-complete: 1
@@ -145,9 +144,10 @@ paths:
       - Members
     post:
       summary: Post Groups Group Members
-      description: "### Create a Group Member\n\nAdds a member to a group with a ```group_id```.
-        \u200BMake sure you provide an accurate email address and/or phone number
-        or alerts will not be received by the member."
+      description: |-
+        ### Create a Group Member
+
+        Adds a member to a group with a ```group_id```. ???Make sure you provide an accurate email address and/or phone number or alerts will not be received by the member.
       operationId: -create-a-group-memberadds-a-member-to-a-group-with-a-group-id-make-sure-you-provide-an-accurate-ema
       x-api-path-slug: groupsgroup-idmembers-post
       parameters:
@@ -217,4 +217,3 @@ paths:
       - Group
       - Members
       - Member
----

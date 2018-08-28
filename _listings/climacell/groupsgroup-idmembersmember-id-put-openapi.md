@@ -147,9 +147,10 @@ paths:
       - Members
     post:
       summary: Post Groups Group Members
-      description: "### Create a Group Member\n\nAdds a member to a group with a ```group_id```.
-        \u200BMake sure you provide an accurate email address and/or phone number
-        or alerts will not be received by the member."
+      description: |-
+        ### Create a Group Member
+
+        Adds a member to a group with a ```group_id```. ???Make sure you provide an accurate email address and/or phone number or alerts will not be received by the member.
       operationId: -create-a-group-memberadds-a-member-to-a-group-with-a-group-id-make-sure-you-provide-an-accurate-ema
       x-api-path-slug: groupsgroup-idmembers-post
       parameters:
@@ -181,6 +182,29 @@ paths:
         name: group
         schema:
           $ref: '#/definitions/holder'
+      - in: path
+        name: group_id
+        description: UUID of the Group
+      - in: path
+        name: member_id
+        description: UUID of the User
+      responses:
+        200:
+          description: OK
+      tags:
+      - Weather
+      - Groups
+      - Group
+      - Members
+      - Member
+    delete:
+      summary: Delete Groups Group Members Member
+      description: |-
+        ### Delete a Group Member
+        Removes a member with the ```member_id``` from the group with a ```group_id```.
+      operationId: -delete-a-group-memberremoves-a-member-with-the-member-id-from-the-group-with-a-group-id
+      x-api-path-slug: groupsgroup-idmembersmember-id-delete
+      parameters:
       - in: path
         name: group_id
         description: UUID of the Group

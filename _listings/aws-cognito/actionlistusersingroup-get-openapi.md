@@ -225,6 +225,38 @@ paths:
       tags:
       - Users
       - Groups
+  /?Action=UpdateGroup:
+    get:
+      summary: Update Group
+      description: Updates the specified group with the specified attributes.
+      operationId: updateGroup
+      x-api-path-slug: actionupdategroup-get
+      parameters:
+      - in: query
+        name: Description
+        description: A string containing the new description of the group
+        type: string
+      - in: query
+        name: GroupName
+        description: The name of the group
+        type: string
+      - in: query
+        name: Precedence
+        description: The new precedence value for the group
+        type: string
+      - in: query
+        name: RoleArn
+        description: The new role ARN for the group
+        type: string
+      - in: query
+        name: UserPoolId
+        description: The user pool ID for the user pool
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Groups
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -1,16 +1,17 @@
----
 swagger: "2.0"
 x-collection-name: Apica
 x-complete: 1
 info:
-  title: Groups API
+  title: Scenarios API
   version: 1.0.0
+host: api.pingdom.com
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+basePath: /
 paths:
   '/groups ':
     ' get ':
@@ -36,7 +37,7 @@ paths:
       - Groups
   '/groups/{groupId} ':
     ' put ':
-      summary: Groups {groupId}
+      summary: Groups
       description: Updates a monitor group.
       operationId: -groups-groupid-
       x-api-path-slug: groupsgroupid-put
@@ -46,7 +47,7 @@ paths:
       tags:
       - Groups
     ' delete ':
-      summary: Groups {groupId}
+      summary: Groups
       description: Deletes a monitor group by Id.
       operationId: -groups-groupid-
       x-api-path-slug: groupsgroupid-delete
@@ -57,7 +58,7 @@ paths:
       - Groups
   '/groups/{groupId}/checks ':
     ' get ':
-      summary: Groups {groupId} Checks
+      summary: Group Checks
       description: Gets a list of checks assigned to the monitor group.
       operationId: -groups-groupid-checks-
       x-api-path-slug: groupsgroupidchecks-get
@@ -67,7 +68,7 @@ paths:
       tags:
       - Groups
     ' post ':
-      summary: Groups {groupId} Checks
+      summary: Group Checks
       description: Assigns checks to the monitor group.
       operationId: -groups-groupid-checks-
       x-api-path-slug: groupsgroupidchecks-post
@@ -77,7 +78,7 @@ paths:
       tags:
       - Groups
     ' delete ':
-      summary: Groups {groupId} Checks
+      summary: Groups Checks
       description: Unassigns checks from the monitor group.
       operationId: -groups-groupid-checks-
       x-api-path-slug: groupsgroupidchecks-delete
@@ -88,7 +89,7 @@ paths:
       - Groups
   '/groups/{groupId}/users ':
     ' get ':
-      summary: Groups {groupId} Users
+      summary: Groups Users
       description: Gets a list of users assigned to the monitor group.
       operationId: -groups-groupid-users-
       x-api-path-slug: groupsgroupidusers-get
@@ -98,7 +99,7 @@ paths:
       tags:
       - Groups
     ' post ':
-      summary: Groups {groupId} Users
+      summary: Groups Users
       description: Assigns users to the monitor group.
       operationId: -groups-groupid-users-
       x-api-path-slug: groupsgroupidusers-post
@@ -108,7 +109,7 @@ paths:
       tags:
       - Groups
     ' delete ':
-      summary: Groups {groupId} Users
+      summary: Groups Users
       description: ""
       operationId: -groups-groupid-users-
       x-api-path-slug: groupsgroupidusers-delete
@@ -117,4 +118,3 @@ paths:
           description: OK
       tags:
       - Groups
----

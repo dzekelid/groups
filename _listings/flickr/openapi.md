@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Flickr
 x-complete: 1
@@ -262,26 +261,3 @@ paths:
       - Groups
       - Pools
       - Remove
-  /rest/?method=flickr.people.getPublicGroups:
-    get:
-      summary: People Get Public Groups
-      description: Returns the list of public groups a user is a member of.
-      operationId: getRestMethodFlickr.people.getpublicgroups
-      x-api-path-slug: restmethodflickr-people-getpublicgroups-get
-      parameters:
-      - in: query
-        name: api_key
-        description: Your API application key
-      - in: query
-        name: format
-        description: Response format
-      - in: query
-        name: user_id
-        description: The NSID of the user to fetch groups for
-      responses:
-        200:
-          description: OK
-      tags:
-      - People
-      - GetPublicGroups
----

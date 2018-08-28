@@ -14,6 +14,111 @@ produces:
 consumes:
 - application/json
 paths:
+  /?Action=DescribeCacheParameterGroups:
+    get:
+      summary: Describe Cache Parameter Groups
+      description: |-
+        Returns a list of cache parameter group
+                    descriptions.
+      operationId: describeCacheParameterGroups
+      x-api-path-slug: actiondescribecacheparametergroups-get
+      parameters:
+      - in: query
+        name: CacheParameterGroupName
+        description: The name of a specific cache parameter group to return details
+          for
+        type: string
+      - in: query
+        name: Marker
+        description: An optional marker returned from a prior request
+        type: string
+      - in: query
+        name: MaxRecords
+        description: The maximum number of records to include in the response
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Cache Parameter Groups
+  /?Action=DescribeCacheSecurityGroups:
+    get:
+      summary: Describe Cache Security Groups
+      description: |-
+        Returns a list of cache security group
+                    descriptions.
+      operationId: describeCacheSecurityGroups
+      x-api-path-slug: actiondescribecachesecuritygroups-get
+      parameters:
+      - in: query
+        name: CacheSecurityGroupName
+        description: The name of the cache security group to return details for
+        type: string
+      - in: query
+        name: Marker
+        description: An optional marker returned from a prior request
+        type: string
+      - in: query
+        name: MaxRecords
+        description: The maximum number of records to include in the response
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Cache Security Groups
+  /?Action=DescribeCacheSubnetGroups:
+    get:
+      summary: Describe Cache Subnet Groups
+      description: |-
+        Returns a list of cache subnet group
+                    descriptions.
+      operationId: describeCacheSubnetGroups
+      x-api-path-slug: actiondescribecachesubnetgroups-get
+      parameters:
+      - in: query
+        name: CacheSubnetGroupName
+        description: The name of the cache subnet group to return details for
+        type: string
+      - in: query
+        name: Marker
+        description: An optional marker returned from a prior request
+        type: string
+      - in: query
+        name: MaxRecords
+        description: The maximum number of records to include in the response
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Cache Subnet Groups
+  /?Action=DescribeReplicationGroups:
+    get:
+      summary: Describe Replication Groups
+      description: |-
+        Returns information about a particular
+                    replication group.
+      operationId: describeReplicationGroups
+      x-api-path-slug: actiondescribereplicationgroups-get
+      parameters:
+      - in: query
+        name: Marker
+        description: An optional marker returned from a prior request
+        type: string
+      - in: query
+        name: MaxRecords
+        description: The maximum number of records to include in the response
+        type: string
+      - in: query
+        name: ReplicationGroupId
+        description: The identifier for the replication group to be described
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Replication Groups
   /?Action=AuthorizeCacheSecurityGroupIngress:
     get:
       summary: Authorize Cache Security Group Ingress

@@ -1,10 +1,8 @@
----
 swagger: "2.0"
 x-collection-name: Meetup
 x-complete: 1
 info:
   title: Meetup
-  description: the-meetup-api-provides-simple-restful-http-and-streaming-interfaces-for-exploring-and-interacting-meetup-platform-from-your-own-apps--the-api-is-a-set-of-core-methods-and-a-common-request-format--these-are-combined-to-form-a-url-that-returns-the-information-you-want--
   version: 1.0.0
 host: api.meetup.com
 basePath: /
@@ -1322,4 +1320,145 @@ paths:
       tags:
       - Events
       - Groups
----
+  /2/profile:
+    post:
+      summary: Profile Create (Group Join)
+      description: This method allows an authenticated member to join a group by creating
+        a profile
+      operationId: profiles
+      x-api-path-slug: 2profile-post
+      parameters:
+      - in: query
+        name: answer_{qid}
+        description: Answers to questions from groups API join_info question fields
+        type: string
+      - in: query
+        name: group_id
+        description: Id of group to join
+        type: string
+      - in: query
+        name: group_urlname
+        description: Urlname of group to join
+        type: string
+      - in: query
+        name: intro
+        description: Provides a Member an opportunity to tell the group about themselves
+        type: string
+      - in: query
+        name: new_photo
+        description: file upload for a new member photo
+        type: string
+      - in: query
+        name: photo_id
+        description: photo_id of the photo to use for this profile
+        type: string
+      - in: query
+        name: site_name
+        description: Name of members site
+        type: string
+      - in: query
+        name: site_url
+        description: Link to members site
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Profile
+  /2/profile/:gid/:mid:
+    delete:
+      summary: Profile Delete (Leave Group)
+      description: Deletes a member's group profile
+      operationId: profiles
+      x-api-path-slug: 2profilegidmid-delete
+      parameters:
+      - in: query
+        name: exit_comment
+        description: Optional message to the organizer when leaving
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Profile
+  /:urlname/boards:
+    get:
+      summary: Discussion Boards
+      description: Listings of Group discussion boards
+      operationId: boards
+      x-api-path-slug: urlnameboards-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Discussions
+  /:urlname/boards/:bid/discussions/:did:
+    get:
+      summary: Discussion Posts
+      description: Listing Group discussion posts
+      operationId: boards
+      x-api-path-slug: urlnameboardsbiddiscussionsdid-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Discussions
+  /:urlname/topics:
+    post:
+      summary: Group Topics Add
+      description: Associates topics with a given Meetup group. Limited to organizers
+        of the group. OAuth authenticated requests require an additional [group_edit](/meetup_api/auth/#oauth2-scopes)
+        permission.
+      operationId: groups
+      x-api-path-slug: urlnametopics-post
+      parameters:
+      - in: query
+        name: topic_id
+        description: Comma-delimited list of topic ids to associate with group
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Photos
+    delete:
+      summary: Group Topics Remove
+      description: Disassociates topics with a given Meetup group. Limited to organizers
+        of the group. OAuth authenticated requests require an additional [group_edit](/meetup_api/auth/#oauth2-scopes)
+        permission.
+      operationId: groups
+      x-api-path-slug: urlnametopics-delete
+      parameters:
+      - in: query
+        name: topic_id
+        description: Comma-delimited list of topic ids to disassociate with group
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Photos
+  /:urlname/venues:
+    get:
+      summary: Group Venues
+      description: Returns venues a group has previously hosted events at
+      operationId: venues
+      x-api-path-slug: urlnamevenues-get
+      parameters:
+      - in: query
+        name: fields
+        description: Comma-delimited list of optional fields to append to the response
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Photos
+      - Veues

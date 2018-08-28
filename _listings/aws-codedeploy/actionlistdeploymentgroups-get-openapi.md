@@ -36,6 +36,30 @@ paths:
           description: OK
       tags:
       - Deployment Groups
+  /?Action=ListDeploymentGroups:
+    get:
+      summary: List Deployment Groups
+      description: |-
+        Lists the deployment groups for an application registered with the applicable IAM
+                    user or AWS account.
+      operationId: listDeploymentGroups
+      x-api-path-slug: actionlistdeploymentgroups-get
+      parameters:
+      - in: query
+        name: applicationName
+        description: The name of an AWS CodeDeploy application associated with the
+          applicable IAM user            or AWS account
+        type: string
+      - in: query
+        name: nextToken
+        description: An identifier returned from the previous list deployment groups
+          call
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Deployment Groups
   /?Action=CreateDeploymentGroup:
     get:
       summary: Create Deployment Group
@@ -134,30 +158,6 @@ paths:
       - in: query
         name: deploymentGroupName
         description: The name of an existing deployment group for the specified application
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Deployment Groups
-  /?Action=ListDeploymentGroups:
-    get:
-      summary: List Deployment Groups
-      description: |-
-        Lists the deployment groups for an application registered with the applicable IAM
-                    user or AWS account.
-      operationId: listDeploymentGroups
-      x-api-path-slug: actionlistdeploymentgroups-get
-      parameters:
-      - in: query
-        name: applicationName
-        description: The name of an AWS CodeDeploy application associated with the
-          applicable IAM user            or AWS account
-        type: string
-      - in: query
-        name: nextToken
-        description: An identifier returned from the previous list deployment groups
-          call
         type: string
       responses:
         200:

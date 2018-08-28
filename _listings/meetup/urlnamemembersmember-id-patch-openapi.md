@@ -1164,6 +1164,254 @@ paths:
       tags:
       - Events
       - Groups
+    delete:
+      summary: Delete Group Member Profile (Leave Group)
+      description: Deletes a member's group profiles.
+      operationId: profiles
+      x-api-path-slug: urlnamemembersmember-id-delete
+      parameters:
+      - in: query
+        name: exit_comment
+        description: Optional message to the organizer when leaving
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Groups
+  /recommended/group_topics:
+    get:
+      summary: Recommend Group Topics
+      description: Recommends suggestions for group topics based on a text search
+        or other topics
+      operationId: topics
+      x-api-path-slug: recommendedgroup-topics-get
+      parameters:
+      - in: query
+        name: exclude_topics
+        description: A comma-delimited list of topic ids to exclude from the recommendations
+        type: string
+      - in: query
+        name: lang
+        description: Defines a language preference for ordering results
+        type: string
+      - in: query
+        name: other_topics
+        description: A comma-delimited list of topic ids to inform recommendations
+        type: string
+      - in: query
+        name: page
+        description: Target number of recommendations to return
+        type: string
+      - in: query
+        name: text
+        description: Free form text search
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Recomendations
+      - Groups
+      - Topics
+  /recommended/groups:
+    get:
+      summary: Recommended Groups
+      description: Returns groups Meetup finds relevant to you
+      operationId: groups
+      x-api-path-slug: recommendedgroups-get
+      parameters:
+      - in: query
+        name: category
+        description: A valid category id which limits recommended groups to a particular
+          category
+        type: string
+      - in: query
+        name: country
+        description: A valid two character country code, defaults to US
+        type: string
+      - in: query
+        name: fields
+        description: Request that additional fields (separated by commas) be included
+          in the output
+        type: string
+      - in: query
+        name: instant_join_only
+        description: Recommend only groups without join requirements and that can
+          be joined instantly
+        type: string
+      - in: query
+        name: lat
+        description: Approximate latitude
+        type: string
+      - in: query
+        name: location
+        description: Raw text location query
+        type: string
+      - in: query
+        name: lon
+        description: Approximate longitude
+        type: string
+      - in: query
+        name: radius
+        description: Radius in miles
+        type: string
+      - in: query
+        name: sort
+        description: How to order the results
+        type: string
+      - in: query
+        name: topic_id
+        description: Comma delimited list of up to 100 topic ids to help inform recommendations
+        type: string
+      - in: query
+        name: zip
+        description: Zip code you are searching for recommendations in
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Recomendations
+      - Groups
+  /recommended/groups/ignores/:urlname:
+    post:
+      summary: Recommended Groups Ignore
+      description: Provides a form of feedback by requesting to remove a group from
+        future recommendations
+      operationId: groups
+      x-api-path-slug: recommendedgroupsignoresurlname-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Recomendations
+      - Groups
+  /:urlname/events:
+    get:
+      summary: Group Events
+      description: Gets a listing of all Meetup Events hosted by a target group, in
+        ascending order by default
+      operationId: events
+      x-api-path-slug: urlnameevents-get
+      parameters:
+      - in: query
+        name: desc
+        description: When true, sorts results in descending order
+        type: string
+      - in: query
+        name: fields
+        description: Comma-delimited list of optional fields to append to the response
+        type: string
+      - in: query
+        name: page
+        description: Number of results to return in a page
+        type: string
+      - in: query
+        name: scroll
+        description: A string representing an alias for a point on a timeline
+        type: string
+      - in: query
+        name: status
+        description: A comma-delimited list of event statuses
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Groups
+  /2/profile:
+    post:
+      summary: Profile Create (Group Join)
+      description: This method allows an authenticated member to join a group by creating
+        a profile
+      operationId: profiles
+      x-api-path-slug: 2profile-post
+      parameters:
+      - in: query
+        name: answer_{qid}
+        description: Answers to questions from groups API join_info question fields
+        type: string
+      - in: query
+        name: group_id
+        description: Id of group to join
+        type: string
+      - in: query
+        name: group_urlname
+        description: Urlname of group to join
+        type: string
+      - in: query
+        name: intro
+        description: Provides a Member an opportunity to tell the group about themselves
+        type: string
+      - in: query
+        name: new_photo
+        description: file upload for a new member photo
+        type: string
+      - in: query
+        name: photo_id
+        description: photo_id of the photo to use for this profile
+        type: string
+      - in: query
+        name: site_name
+        description: Name of members site
+        type: string
+      - in: query
+        name: site_url
+        description: Link to members site
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Profile
+  /2/profile/:gid/:mid:
+    delete:
+      summary: Profile Delete (Leave Group)
+      description: Deletes a member's group profile
+      operationId: profiles
+      x-api-path-slug: 2profilegidmid-delete
+      parameters:
+      - in: query
+        name: exit_comment
+        description: Optional message to the organizer when leaving
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Profile
+  /:urlname/boards:
+    get:
+      summary: Discussion Boards
+      description: Listings of Group discussion boards
+      operationId: boards
+      x-api-path-slug: urlnameboards-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Discussions
+  /:urlname/boards/:bid/discussions/:did:
+    get:
+      summary: Discussion Posts
+      description: Listing Group discussion posts
+      operationId: boards
+      x-api-path-slug: urlnameboardsbiddiscussionsdid-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Events
+      - Discussions
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

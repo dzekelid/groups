@@ -1,10 +1,8 @@
----
 swagger: "2.0"
 x-collection-name: Foursquare
 x-complete: 1
 info:
   title: Foursquare
-  description: checkin-explore-your-city-and-connect-people-and-places-bapi-v2-b
   version: 1.0.0
 host: api.foursquare.com
 basePath: /v2/
@@ -15,42 +13,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /venuegroups/add:
-    post:
-      summary: Post Venuegroups Add
-      description: /venuegroups/{GROUP_ID}
-      operationId: venuegroupsgroup-id
-      x-api-path-slug: venuegroupsadd-post
-      parameters:
-      - in: query
-        name: name
-        description: The name to give the group
-      - in: query
-        name: v
-        description: All requests now accept a v=YYYYMMDD param, which indicates that
-          the client is up to date as of the specified date
-      responses:
-        200:
-          description: OK
-      tags:
-      - Venuegroups
-  /venuegroups/list:
-    get:
-      summary: Get Venuegroups List
-      description: /venuegroups/{GROUP_ID}/delete
-      operationId: venuegroupsgroup-iddelete
-      x-api-path-slug: venuegroupslist-get
-      parameters:
-      - in: query
-        name: v
-        description: All requests now accept a v=YYYYMMDD param, which indicates that
-          the client is up to date as of the specified date
-      responses:
-        200:
-          description: OK
-      tags:
-      - Venuegroups
-      - List
   /venuegroups/{GROUP_ID}:
     get:
       summary: Get Venuegroups Group
@@ -148,4 +110,3 @@ paths:
       - Venuegroups
       - Group
       - Removevenue
----

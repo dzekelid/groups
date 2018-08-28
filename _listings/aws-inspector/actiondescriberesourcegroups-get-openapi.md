@@ -15,6 +15,24 @@ produces:
 consumes:
 - application/json
 paths:
+  /?Action=DescribeResourceGroups:
+    get:
+      summary: Describe Resource Groups
+      description: |-
+        Describes the resource groups that are specified by the ARNs of the resource
+                 groups.
+      operationId: describeResourceGroups
+      x-api-path-slug: actiondescriberesourcegroups-get
+      parameters:
+      - in: query
+        name: resourceGroupArns
+        description: The ARN that specifies the resource group that you want to describe
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Resource Groups
   /?Action=CreateResourceGroup:
     get:
       summary: Create Resource Group
@@ -28,24 +46,6 @@ paths:
       - in: query
         name: resourceGroupTags
         description: A collection of keys and an array of possible values,         [{key:key1,values:[Value1,Value2]},{key:Key2,values:[Value3]}]
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Resource Groups
-  /?Action=DescribeResourceGroups:
-    get:
-      summary: Describe Resource Groups
-      description: |-
-        Describes the resource groups that are specified by the ARNs of the resource
-                 groups.
-      operationId: describeResourceGroups
-      x-api-path-slug: actiondescriberesourcegroups-get
-      parameters:
-      - in: query
-        name: resourceGroupArns
-        description: The ARN that specifies the resource group that you want to describe
         type: string
       responses:
         200:

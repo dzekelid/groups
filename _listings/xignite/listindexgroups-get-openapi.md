@@ -34,6 +34,26 @@ paths:
       - List
       - Index
       - Groups
+  /ListIndicesByIndexGroup:
+    get:
+      summary: List Indices By Index Group
+      description: List indices by index group.
+      operationId: ListIndicesByIndexGroup
+      x-api-path-slug: listindicesbyindexgroup-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - List
+      - Indices
+      - Index
+      - Group
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

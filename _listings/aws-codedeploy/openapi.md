@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS CodeDeploy
 x-complete: 1
@@ -27,6 +26,30 @@ paths:
       - in: query
         name: deploymentGroupNames
         description: The deployment groups names
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Deployment Groups
+  /?Action=ListDeploymentGroups:
+    get:
+      summary: List Deployment Groups
+      description: |-
+        Lists the deployment groups for an application registered with the applicable IAM
+                    user or AWS account.
+      operationId: listDeploymentGroups
+      x-api-path-slug: actionlistdeploymentgroups-get
+      parameters:
+      - in: query
+        name: applicationName
+        description: The name of an AWS CodeDeploy application associated with the
+          applicable IAM user            or AWS account
+        type: string
+      - in: query
+        name: nextToken
+        description: An identifier returned from the previous list deployment groups
+          call
         type: string
       responses:
         200:
@@ -137,30 +160,6 @@ paths:
           description: OK
       tags:
       - Deployment Groups
-  /?Action=ListDeploymentGroups:
-    get:
-      summary: List Deployment Groups
-      description: |-
-        Lists the deployment groups for an application registered with the applicable IAM
-                    user or AWS account.
-      operationId: listDeploymentGroups
-      x-api-path-slug: actionlistdeploymentgroups-get
-      parameters:
-      - in: query
-        name: applicationName
-        description: The name of an AWS CodeDeploy application associated with the
-          applicable IAM user            or AWS account
-        type: string
-      - in: query
-        name: nextToken
-        description: An identifier returned from the previous list deployment groups
-          call
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Deployment Groups
   /?Action=UpdateDeploymentGroup:
     get:
       summary: Update Deployment Group
@@ -226,4 +225,3 @@ paths:
           description: OK
       tags:
       - Deployment Groups
----

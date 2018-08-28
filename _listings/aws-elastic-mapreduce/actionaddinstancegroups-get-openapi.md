@@ -33,6 +33,49 @@ paths:
           description: OK
       tags:
       - Instance Groups
+  /?Action=ListInstanceGroups:
+    get:
+      summary: List Instance Groups
+      description: Provides all available details about the instance groups in a cluster.
+      operationId: listInstanceGroups
+      x-api-path-slug: actionlistinstancegroups-get
+      parameters:
+      - in: query
+        name: ClusterId
+        description: The identifier of the cluster for which to list the instance
+          groups
+        type: string
+      - in: query
+        name: Marker
+        description: The pagination token that indicates the next set of results to
+          retrieve
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Instance Groups
+  /?Action=ModifyInstanceGroups:
+    get:
+      summary: Modify Instance Groups
+      description: ModifyInstanceGroups modifies the number of nodes and configuration
+        settings of an instance group.
+      operationId: modifyInstanceGroups
+      x-api-path-slug: actionmodifyinstancegroups-get
+      parameters:
+      - in: query
+        name: ClusterId
+        description: The ID of the cluster to which the instance group belongs
+        type: string
+      - in: query
+        name: InstanceGroups
+        description: Instance groups to change
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Instance Groups
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

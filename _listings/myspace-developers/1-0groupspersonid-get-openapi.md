@@ -48,6 +48,37 @@ paths:
       tags:
       - Groups
       - People
+  /1.0/groups/@supportedFields:
+    get:
+      summary: Get Groups Supported Fields
+      description: Retrieves all supported fields.
+      operationId: 1.0.groups._supportedFields.get
+      x-api-path-slug: 1-0groupssupportedfields-get
+      parameters:
+      - in: query
+        name: count
+        description: Only returns the nearest multiple of 3 compared to the original
+          value
+      - in: query
+        name: fields
+        description: 'The following field names are supported: id and title'
+      - in: query
+        name: format
+        description: Determines the format of the response
+      - in: query
+        name: msPrivacyLevel
+        description: MySpace specific field
+      - in: query
+        name: startIndex
+        description: Indicates the index of the first item to retrieve from the query
+          set
+      responses:
+        200:
+          description: OK
+      tags:
+      - Groups
+      - Supported
+      - Fields
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
